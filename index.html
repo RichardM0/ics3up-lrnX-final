@@ -4,25 +4,53 @@
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="searchbar.css">
         <link rel="stylesheet" href="navbar.css">
+        <link rel="stylesheet" href="grid.css">
         <title>lrnX: Online Courses - Explore! </title>
     </head>
     <body>
-        <nav class="navbar">
-            <a href="index.html"><strong><h3 id="lrnx-navbar-page-title">lrnX</h3></strong></a>
-            <a href="courses.html">Courses</a>
-            <a href="aboutus.html">About Us</a>
-
+        <nav class="sticky navbar">
+            <div class="navbar-left">
+                <a href="index.html"><h3 id="lrnx-navbar-page-title">lrnX</h3></a>
+            </div>
+            <div id="linkdiv">
+                <a href="courses.html">Courses</a>
+                <a href="aboutus.html">About Us</a>
+            </div>
         </nav>
+        <div class="grid-container">
+            <div class="item1"></div>
+            <div class="item2">
+                <div id="main-page-header-title">
+                    Learn However You Want.
+                </div>
+                <div id="main-page-header-description">
+                    Powerful Computer Science Courses. <br>
+                    From Many Schools and Businesses.
+                </div>
+                <div>
+                    <form action="https://google.com" method="get" class="search-bar">
+                        <input type="text" placeholder="explore courses" name="q">
+                        <button type="submit"><img src="search-icon-ics3up.png"></button>
+                    </form>
+                </div>
+            </div>
+            <div class="item3">
+                <div id="main-page-body">
+                    <div id="main-page-body-section1">
+                        <div id="main-page-body-section1-image">
+                            
+                        </div>
+                        <div id="main-page-body-section1-title">
+                            A vast range of Computer Science content, giving variety to adventurers
 
-        <div>
-            <h1> Learn how you want.</h1>
-
-        </div>
-        <div>
-            <form action="input" method="get" class="search-bar">
-                <input type="text" placeholder="explore courses" name="q">
-                <button type="submit"><img src="search.png"></button>
-            </form>
+                        </div>
+                        <div id="main-page-body-section1-description">
+                            Start exploring in our <a href="courses.html">Courses</a> page here, or found at the top of the page.
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>

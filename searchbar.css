@@ -1,27 +1,12 @@
-html{
-    background-color:#58629b;
-}
-.search-container{
-    width:100%;
-    max-width:170vh;
-    min-height:80vh;
-    padding:5%;
-    background-position: center;
-    background-size:cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
-
 .search-bar{
     width:100%;
     max-width:700px;
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(155, 155, 155, 0.4);
     display: flex;
     align-items: center;
     border-radius: 60px;
     padding: 10px 20px;
+    margin-top:50px;
     backdrop-filter: blur(4px) saturate(180%);
 }
 
@@ -32,11 +17,12 @@ html{
     outline: none;
     padding: 24px 20px;
     font-size: 20px;
-    color: #cac7ff;
+    color: #ffffff;
 }
 
 ::placeholder{
-    color: #cac7ff;
+    color: #ffffff;
+    font-size:20px;
 }
 
 .search-bar button img{
@@ -48,6 +34,6 @@ html{
     border-radius:50%;
     width:60px;
     height:60px;
-    background: #58629b;
+    background: #ffffff;
     cursor: pointer;
 }
