@@ -47,19 +47,30 @@ body{
     width:360px;
     text-align:left;
 }
-#top-courses{
-    background-color:#dddddd;
+#courses-page-header{
+    background-color:#f5f1f1;
+    height:260px;
+    align-items:center;
 }
-#top-courses-title{
-    margin-top:20px;
+#courses-page-title{
+    text-align:center;
+    position:relative;
+    top:50px;
     margin-left:24px;
     font-size:36px;
 }
-#top-courses-content{
-    margin-left:48px;
+
+#courses-page-description{
+    position:relative;
+    top:70px;
+    left:355px;
+    font-size:20px;
+    width:450px;
+    text-align:center;
+
 }
-#top-courses-content img{
-    margin-top:20px;
+#courses-page-content img{
+    margin-top:35px;
     width:252px;
     height:150px;
 }
