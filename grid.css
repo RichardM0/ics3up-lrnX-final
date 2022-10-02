@@ -13,6 +13,7 @@
   }
   
   .item2{
+      align-items:center;
       grid-column:2;
       background-color:#f5f1f1;
       height:400px;

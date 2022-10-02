@@ -38,6 +38,7 @@ body{
 
 }
 
+
 #main-page-body-section1-description{
     font-size:24px;
     position:relative;
@@ -49,24 +50,24 @@ body{
 }
 #courses-page-header{
     background-color:#f5f1f1;
-    height:260px;
-    align-items:center;
+    height:300px;
+
 }
 #courses-page-title{
     text-align:center;
     position:relative;
-    top:50px;
+    right:45px;
+    top:60px;
     margin-left:24px;
     font-size:36px;
 }
 
 #courses-page-description{
-    position:relative;
-    top:70px;
-    left:355px;
-    font-size:20px;
-    width:450px;
     text-align:center;
+    position:relative;
+    top:90px;
+    width:450px;
+    font-size:20px;
 
 }
 #courses-page-content img{
