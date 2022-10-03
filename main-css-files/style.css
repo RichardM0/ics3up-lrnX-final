@@ -3,6 +3,9 @@ body{
     margin:0px;
     
 }
+a:link, a:visited {
+    color: rgb(117, 5, 197);
+}
 
 #main-page-header-title{
     margin-top:100px;
@@ -23,13 +26,15 @@ body{
 }
 #main-page-body-section1{
     font-size:20px;
+    width:100%;
+    align-items:right;
 }
 #main-page-body-section1-image{
     width:auto;
 }
 #main-page-body-section1-title{
     position:relative;
-    left:500px;
+    left:900px;
     margin-top:75px;
     font-size:20px;
     width:400px;
@@ -42,55 +47,9 @@ body{
 #main-page-body-section1-description{
     font-size:24px;
     position:relative;
-    left:500px;
+    left:900px;
     margin-top:15px;
     font-size:20px;
     width:360px;
     text-align:left;
-}
-#courses-page-header{
-    background-color:#f5f1f1;
-    height:360px;
-
-}
-#courses-page-title{
-    text-align:center;
-    position:relative;
-    right:18px;
-    top:90px;
-    margin-left:24px;
-    font-size:45px;
-}
-
-#courses-page-description{
-    text-align:center;
-    position:relative;
-    top:110px;
-    right:5px;
-    font-size:18px;
-
-}
-
-#courses-page-content img{
-    margin-top:35px;
-    width:252px;
-    height:150px;
-}
-
-#courses-page-navbar{
-    margin-top:25px;
-    overflow:hidden;
-    text-align:center;
-    background-color:#ffffff;
-    width:100%;
-    font-size:18px;
-}
-#courses-page-navbar a{
-    text-align: center;
-    padding: 0px 25px;
-    text-decoration: none;
-    
-}
-#courses-page-navbar a:hover{
-    color:black;
 }

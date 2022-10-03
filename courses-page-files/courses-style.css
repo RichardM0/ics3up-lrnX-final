@@ -1,0 +1,55 @@
+#courses-page-header{
+    background-color:#f5f1f1;
+    height:360px;
+
+}
+#courses-page-title{
+    text-align:center;
+    position:relative;
+    top:90px;
+    margin-left:24px;
+    font-size:45px;
+}
+
+#courses-page-description{
+    text-align:center;
+    position:relative;
+    top:110px;
+    font-size:18px;
+
+}
+
+#courses-page-content img{
+    margin-top:35px;
+    width:252px;
+    height:150px;
+}
+
+#courses-page-navbar{
+    overflow:hidden;
+    text-align:center;
+    background-color:#ffffff;
+    width:100%;
+    height:200px;
+    font-size:18px;
+    position:relative;
+    top:15px;
+}
+#courses-page-navbar a{
+    display:inline-block;
+    text-align: center;
+    padding: 0px 25px;
+    text-decoration: none;
+    border:2px solid rgb(117, 5, 197);
+    border-radius:25px;
+}
+#courses-page-navbar a:hover{
+    color:black;
+}
+
+#showcase-item1{
+    border:1px solid black;
+    border-radius:25px;
+    width:15%;
+    display:inline-block;
+}

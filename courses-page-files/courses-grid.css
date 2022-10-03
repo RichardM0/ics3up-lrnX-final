@@ -23,3 +23,8 @@
     align-items:center;
     width:100%;
   }
+
+  .item4{
+    grid-column:2;
+    width:100%;
+  }
