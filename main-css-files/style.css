@@ -76,3 +76,21 @@ body{
     width:252px;
     height:150px;
 }
+
+#courses-page-navbar{
+    margin-top:25px;
+    overflow:hidden;
+    text-align:center;
+    background-color:#ffffff;
+    width:100%;
+    font-size:18px;
+}
+#courses-page-navbar a{
+    text-align: center;
+    padding: 0px 25px;
+    text-decoration: none;
+    
+}
+#courses-page-navbar a:hover{
+    color:black;
+}
