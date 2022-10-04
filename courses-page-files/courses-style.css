@@ -28,9 +28,9 @@
 #courses-page-navbar{
     overflow:hidden;
     text-align:center;
-    background-color:#ffffff;
+    background-color:#fafafa;
     width:100%;
-    height:200px;
+    height:60px;
     font-size:18px;
     position:relative;
     top:15px;
@@ -48,8 +48,37 @@
 }
 
 #showcase-item1{
-    border:1px solid black;
+    border:0.25px solid black;
     border-radius:25px;
-    width:15%;
+    text-align:center;
+    width:300px;
+    height:350px;
+    margin:0px 40px;
+    background-color:white;
+}
+#showcase-item2{
+    border:0.25px solid black;
+    border-radius:25px;
+    text-align:center;
+    width:300px;
+    height:350px;
+    margin:0px 40px;
+    background-color:white;
+}
+#showcase-item3{
+    border:0.25px solid black;
+    border-radius:25px;
+    text-align:center;
+    width:300px;
+    height:350px;
+    margin:0px 40px;
+    background-color:white;
+}
+#courses-showcase-items{
+    text-align:center;
     display:inline-block;
+    display:flex;
+    margin-top:15px;
+    justify-content:center;
+    
 }
