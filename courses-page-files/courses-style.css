@@ -47,7 +47,7 @@
     color:black;
 }
 
-#showcase-item1{
+#showcase-item1, #showcase-item2, #showcase-item3, #showcase-item4, #showcase-item5, #showcase-item6, #showcase-item7, #showcase-item8, #showcase-item9{
     border:0.25px solid black;
     border-radius:25px;
     text-align:center;
@@ -55,26 +55,27 @@
     height:350px;
     margin:0px 40px;
     background-color:white;
+
 }
-#showcase-item2{
-    border:0.25px solid black;
-    border-radius:25px;
+
+#courses-showcase-items-row1{
     text-align:center;
-    width:300px;
-    height:350px;
-    margin:0px 40px;
-    background-color:white;
+    display:inline-block;
+    display:flex;
+    margin-top:15px;
+    justify-content:center;
+    
 }
-#showcase-item3{
-    border:0.25px solid black;
-    border-radius:25px;
+
+#courses-showcase-items-row2{
     text-align:center;
-    width:300px;
-    height:350px;
-    margin:0px 40px;
-    background-color:white;
+    display:inline-block;
+    display:flex;
+    margin-top:15px;
+    justify-content:center;
+    
 }
-#courses-showcase-items{
+#courses-showcase-items-row3{
     text-align:center;
     display:inline-block;
     display:flex;
