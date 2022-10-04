@@ -50,7 +50,7 @@
 }
 
 #showcase-item1, #showcase-item2, #showcase-item3, #showcase-item4{
-    border:0.25px solid black;
+    border:0px solid black;
     border-radius:25px;
     text-align:center;
     width:350px;
@@ -70,17 +70,18 @@
 }
 
 #showcase-item1-picture,#showcase-item2-picture,#showcase-item3-picture,#showcase-item4-picture{
-    border-style:0.2px none black; 
+    border-style:0px none black; 
     border-radius:25px; 
     height:208px; 
     width:350px;
 }
 #showcase-item1-description,#showcase-item2-description,#showcase-item3-description,#showcase-item4-description{
-    padding:0px 15px 0px 15px
+    padding:0px 15px 0px 15px;
+    font-size:16px;
 }
 #top-courses-label{
     margin:0px;
     position:relative;
-    left:110px;
+    left:75px;
     font-size:42px;
 }
