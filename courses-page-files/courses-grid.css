@@ -2,6 +2,7 @@
 .grid-container {
     display: grid;
     grid-template-columns: 60px auto;
+    background-color:#fafafa;
 }
   
 .item1{

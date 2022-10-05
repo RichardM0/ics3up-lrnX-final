@@ -1,10 +1,9 @@
-const searchInput = document.getElementById("searchInput")
+const searchInput = document.getElementById("searchInput");
 const namesFromDOM = document.getElementsByClassName("name");
 
-function openfile(file) 
-{ window.location = "file:///" + file; }
+console.log(searchInput)
 
-searchInput.addEventListener("keyup", (event) => {
+searchInput.addEventListener("keyup", input => {
     const { value } = event.target;
     
     // get user search input converted to lowercase
@@ -13,7 +12,6 @@ searchInput.addEventListener("keyup", (event) => {
     for (const nameElement of namesFromDOM) {
         // store name text and convert to lowercase
         let name = nameElement.textContent.toLowerCase();
-        
         // compare current name to search input
         if (name == (searchQuery)) {
             // found name matching search, display it
