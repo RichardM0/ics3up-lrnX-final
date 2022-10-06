@@ -5,6 +5,7 @@
     justify-content:space-between;
     background-color:#ffffff;
     width:100%;
+    font-size:20px;
 }
 
 .navbar a{
@@ -17,7 +18,7 @@
 }
 
 #lrnx-navbar-page-title{
-    font-size:36px;
+    font-size:42px;
     margin:0px 55px;
 }
 

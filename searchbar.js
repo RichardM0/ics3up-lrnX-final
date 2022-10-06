@@ -1,12 +1,12 @@
 const pages = [];
 
-function richard(){
+function storesearch(){
     const query = document.getElementById("searchInput").value.trim();
     window.location.href = `search.html?q=${encodeURIComponent(query)}`;
 };
 
 
-function meng(){
+function search(){
     const results = document.getElementById("results");
     const ogquery = new URLSearchParams(window.location.search).get("q");
     const query = new URLSearchParams(window.location.search).get("q").toLowerCase();
