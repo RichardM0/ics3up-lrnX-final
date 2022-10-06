@@ -1,25 +1,37 @@
-const searchInput = document.getElementById("searchInput");
-const namesFromDOM = document.getElementsByClassName("name");
+const pages = [];
 
-console.log(searchInput)
+function richard(){
+    const query = document.getElementById("searchInput").value.trim();
+    window.location.href = `search.html?q=${encodeURIComponent(query)}`;
+};
 
-searchInput.addEventListener("keyup", input => {
-    const { value } = event.target;
-    
-    // get user search input converted to lowercase
-    const searchQuery = value.toLowerCase();
-    
-    for (const nameElement of namesFromDOM) {
-        // store name text and convert to lowercase
-        let name = nameElement.textContent.toLowerCase();
-        // compare current name to search input
-        if (name == (searchQuery)) {
-            // found name matching search, display it
-            openfile("searchQuery.html")
-        }
-        else {
-            // no match, don't display name
-            return
-        }
-    }
-});
+
+function meng(){
+    const results = document.getElementById("results");
+    const ogquery = new URLSearchParams(window.location.search).get("q");
+    const query = new URLSearchParams(window.location.search).get("q").toLowerCase();
+    const matches = [];
+    for (const page of pages){
+        let commonchar = 0;
+        for(const i in page){
+            query.includes(page[i])?commonchar++:false;
+        };
+        if (commonchar>page.length/2){
+            matches.push(page);
+        };
+    };
+    if (matches.length==0){
+      window.location.href="zero-results.html"
+    };
+    for (const match of matches){
+        const condiv = document.createElement("div");
+        const link = document.createElement("a");
+        const res = document.createElement("h2");
+        res.innerHTML = `Showing results for "${ogquery}"`
+        link.href = `${match}.html`;
+        link.innerHTML = match;
+        condiv.appendChild(res);
+        condiv.appendChild(link);
+        results.appendChild(condiv);
+    };
+};
