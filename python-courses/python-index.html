@@ -7,9 +7,11 @@
         <link rel="stylesheet" href="../main-css-files/style.css">
         <link rel="stylesheet" href="../main-css-files/searchbar.css">
         <link rel="stylesheet" href="../main-css-files/navbar.css">
-        <link rel="stylesheet" href="../maincoursepagestyles/grid.css">
+        <link rel="stylesheet" href="grid.css">
         <link rel="stylesheet" href="../maincoursepagestyles/style.css">
-        <title>lrnX: Online Courses - Explore Web Development! </title>
+        <link rel="stylesheet" href="../courses-page-files/courses-style.css">
+
+        <title>lrnX: Online Courses - Explore Python! </title>
     </head>
     <body>
         <nav class="sticky navbar">
@@ -21,96 +23,125 @@
                 <a href="../aboutus-file/aboutus.html">About Us</a>
             </div>
         </nav>
-        <div style = "background-color: #fafafa;" id="grid-container" >
-            <div id="item1">
-            </div>
-            <div id="item2">
-                <div id="webdev-page-header">
-                    <div id="webdev-page-title">
-                        <strong>lrnX</strong>  | Python
-                    </div>
-                    <div>
-                        <div id="webdev-page-description">
-                            Showcasing our top Python courses.<br>
-                             More to come!
+        <div style = "background-color: #fafafa;" class="container-fluid">
+            <div class="row">
+                <div id="col">
+                    <div id="webdev-page-header">
+                        <div id="webdev-page-title">
+                            <strong>lrnX</strong>  | Python
+                        </div>
+                        <div>
+                            <div id="webdev-page-description">
+                                Showcasing our top Python courses.<br>
+                                More to come!
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div style="background-color:#fafafa; height:650px;"id="item4">
-                <div id="webdev-label">
-                    <h1>Python</h1>
+            <div class="row">
+                <div style="background-color:#fafafa;"class="col">
+                    <div id="courses-page-navbar">
+                    
+                        <a href="../webdev-courses/web-dev-index.html">Web Development</a>
+                        <a href="../js-courses/js-index.html">JavaScript</a>
+                        <a href="../C-courses/C-index.html">C Series</a>
+
+                    </div>
                 </div>
-                <div id="webdev-showcase-items-row1">
-                    <div id="showcase-item1">
-                        <div>
-                            <img id="showcase-item1-picture" src="../ics3up-CS50W.webp">
-                        </div>
-                        <div id="showcase-item1-description">
-                            <strong>CS50W's Web Development with Python and JavaScript</strong>
-                        </div>
+                <div style="background-color:#fafafa; height:650px;"class="col">
+                    <div id="webdev-label">
+                        <h1>Python</h1>
                     </div>
-                    <div id="showcase-item2">
-                        <div>
-                            <img id="showcase-item2-picture" src="../ics3up-MITx6001x.jpeg">
+                    <div id="webdev-showcase-items-row1">
+                        <div id="showcase-item1">
+                            <a href="../payment.html">
+                                <div>
+                                    <img id="showcase-item1-picture" src="../ics3up-CS50W.webp">
+                                </div>
+                                <div id="showcase-item1-description">
+                                    <strong>CS50W's Web Development with Python and JavaScript</strong>
+                                </div>
+                            </a>
                         </div>
-                        <div id="showcase-item2-description">
-                            <strong>MIT's Introduction to Computer Science with Python</strong>
+                        <div id="showcase-item2">
+                            <a href="../payment.html">
+                                <div>
+                                    <img id="showcase-item2-picture" src="../ics3up-MITx6001x.jpeg">
+                                </div>
+                                <div id="showcase-item2-description">
+                                    <strong>MIT's Introduction to Computer Science with Python</strong>
+                                </div>
+                            </a>
                         </div>
-                    </div>
-                    <div id="showcase-item3">
-                        <div>
-                            <img id="showcase-item3-picture" src="../ics3up-CS50P.jpeg">
+                        <div id="showcase-item3">
+                            <a href="../payment.html">
+                                <div>
+                                    <img id="showcase-item3-picture" src="../ics3up-CS50P.jpeg">
+                                </div>
+                                <div id="showcase-item3-description">
+                                    <strong>CS50P's Introduction to Programming with Python</strong>
+                                </div>
+                            </a>
                         </div>
-                        <div id="showcase-item3-description">
-                            <strong>CS50P's Introduction to Programming with Python</strong>
+                        <div id="showcase-item4">
+                            <a href="../payment.html">
+                                <div>
+                                    <img id="showcase-item4-picture" src="../ics3up-IBMJS.webp">
+                                </div>
+                                <div id="showcase-item4-description">
+                                    <strong>IBMs Web and Cloud Development</strong>
+                                </div>
+                            </a>
                         </div>
-                    </div>
-                    <div id="showcase-item4">
-                        <div>
-                            <img id="showcase-item4-picture" src="../ics3up-IBMJS.webp">
+                    </div>                
+                </div> 
+            </div>
+            <div class="row">
+                <div style="background-color:#fafafa; height:650px;"class="col">
+                    <div id="webdev-showcase-items-row2">
+                        <div id="showcase-item1">
+                            <a href="../payment.html">
+                                <div>
+                                    <img id="showcase-item1-picture" src="../ics3up-CS50W.webp">
+                                </div>
+                                <div id="showcase-item1-description">
+                                    <strong>CS50W's Web Development with Python and JavaScript</strong>
+                                </div>
+                            </a>
                         </div>
-                        <div id="showcase-item4-description">
-                            <strong>IBMs Web and Cloud Development</strong>
+                        <div id="showcase-item2">
+                            <a href="../payment.html">
+                                <div>
+                                    <img id="showcase-item2-picture" src="../ics3up-MITx6001x.jpeg">
+                                </div>
+                                <div id="showcase-item2-description">
+                                    <strong>MIT's Introduction to Computer Science with Python</strong>
+                                </div>
+                            </a>
                         </div>
-                    </div>
-                </div>                
-            </div> 
-            <div style="background-color:#fafafa; height:650px;"id="item5">
-                <div id="webdev-showcase-items-row2">
-                    <div id="showcase-item1">
-                        <div>
-                            <img id="showcase-item1-picture" src="../ics3up-CS50W.webp">
+                        <div id="showcase-item3">
+                            <a href="../payment.html">
+                                <div>
+                                    <img id="showcase-item3-picture" src="../ics3up-CS50P.jpeg">
+                                </div>
+                                <div id="showcase-item3-description">
+                                    <strong>CS50P's Introduction to Programming with Python</strong>
+                                </div>
+                            </a>
                         </div>
-                        <div id="showcase-item1-description">
-                            <strong>CS50W's Web Development with Python and JavaScript</strong>
+                        <div id="showcase-item4">
+                            <a href="../payment.html">
+                                <div>
+                                    <img id="showcase-item4-picture" src="../ics3up-IBMJS.webp">
+                                </div>
+                                <div id="showcase-item4-description">
+                                    <strong>IBMs Web and Cloud Development</strong>
+                                </div>
+                            </a>
                         </div>
-                    </div>
-                    <div id="showcase-item2">
-                        <div>
-                            <img id="showcase-item2-picture" src="../ics3up-MITx6001x.jpeg">
-                        </div>
-                        <div id="showcase-item2-description">
-                            <strong>MIT's Introduction to Computer Science with Python</strong>
-                        </div>
-                    </div>
-                    <div id="showcase-item3">
-                        <div>
-                            <img id="showcase-item3-picture" src="../ics3up-CS50P.jpeg">
-                        </div>
-                        <div id="showcase-item3-description">
-                            <strong>CS50P's Introduction to Programming with Python</strong>
-                        </div>
-                    </div>
-                    <div id="showcase-item4">
-                        <div>
-                            <img id="showcase-item4-picture" src="../ics3up-IBMJS.webp">
-                        </div>
-                        <div id="showcase-item4-description">
-                            <strong>IBMs Web and Cloud Development</strong>
-                        </div>
-                    </div>
-                </div>                
+                    </div>                
+                </div>
             </div>
         </div>
     </body>

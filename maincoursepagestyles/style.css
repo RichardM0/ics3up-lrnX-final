@@ -1,6 +1,6 @@
 #showcase-item1, #showcase-item2, #showcase-item3, #showcase-item4{
     border:0px solid black;
-    border-radius:15px;
+    border-radius:25px;
     text-align:center;
     width:350px;
     height:400px;
@@ -20,11 +20,12 @@
 
 #showcase-item1-picture,#showcase-item2-picture,#showcase-item3-picture,#showcase-item4-picture{
     border-style:0px none black; 
-    border-radius:10px; 
+    border-radius:5px; 
     height:188px; 
     width:350px;
 }
 #showcase-item1-description,#showcase-item2-description,#showcase-item3-description,#showcase-item4-description{
+    margin-top:5px;
     padding:0px 15px 0px 15px;
     font-size:16px;
 }
@@ -57,4 +58,12 @@
     margin-top:50px;
     font-size:14px;
     padding:0px 30px 0px 30px;
+}
+#webdev-showcase-items-row1 a{
+    text-decoration: none; 
+    color:black;
+}
+#webdev-showcase-items-row2 a{
+    text-decoration: none; 
+    color:black;
 }
