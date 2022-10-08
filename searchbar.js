@@ -1,11 +1,31 @@
-const pages = ["test"];
+const pages = [];
+
+const mit6001x = {};
+mit6001x.name = "mit6001x"; //what will the search query be?
+mit6001x.image = "ics3up-MITx6001x.jpeg"; //link to image for the course (relative to results.html)
+mit6001x.display = "MIT's Introduction to Computer Science with Python"; //what will the bolded heading say?
+mit6001x.desc = " Intermediate and beginner course for those interested in programming with Python! Includes complexity, data types, and more."; //what will the description say?
+mit6001x.link = "../courseslist/mit6001x.html"; //what should it be linked to? (relative to results.html)
+mit6001x.keywords = ["mit","python","6001x"]; //some keywords that will also bring up the course
+pages.push(mit6001x);
+
 
 function storesearch(){
     const query = document.getElementById("searchInput").value.trim();
-    window.location.href = `search.html?q=${encodeURIComponent(query)}`;
+    window.location.href = `results.html?q=${encodeURIComponent(query)}`;
 };
 
+    
+        
 
+function storesearchenter(key){
+    if(key.keyCode === 13){
+        storesearch();
+    };
+}; 
+
+/*"element.classList.add('classname')"
+"element.setAttribute('id','idname')"*/
 function search(){
     const results = document.getElementById("results");
     const ogquery = new URLSearchParams(window.location.search).get("q");
@@ -13,25 +33,72 @@ function search(){
     const matches = [];
     for (const page of pages){
         let commonchar = 0;
-        for(const i in page){
-            query.includes(page[i])?commonchar++:false;
+        for(const i in page.name){
+            query[i] == page.name[i]?commonchar++:false;
         };
-        if (commonchar>page.length/2){
+        if (commonchar>page.name.length/2){
             matches.push(page);
+        }else{
+            for(const keyword of page.keywords){
+                let commonchar = 0;
+                for(const i in keyword){
+                    query[i] == keyword[i]?commonchar++:false;
+                };
+                if (commonchar>keyword.length/2){
+                    matches.push(page);
+                };
+            };
         };
     };
     if (matches.length==0){
-      window.location.href="zero-results.html"
+        window.location.href = `zeroresults.html?q=${encodeURIComponent(query)}`
+        
+    }else{
+        const res = document.createElement("h1");
+        res.innerHTML = `Showing results for "${ogquery}"`
+        res.classList.add('show-results-header-page')
+        document.querySelector("#heading").appendChild(res)
     };
     for (const match of matches){
         const condiv = document.createElement("div");
+        condiv.classList.add("showcaseitem");
+
         const link = document.createElement("a");
-        const res = document.createElement("h2");
-        res.innerHTML = `Showing results for "${ogquery}"`
-        link.href = `${match}.html`;
-        link.innerHTML = match;
-        condiv.appendChild(res);
+        link.href = match.link;
+        link.style.textDecoration = "none";
+        link.style.color = "black";
+
+        const imagediv = document.createElement("div");
+        const image = document.createElement("img");
+        image.setAttribute("src",match.image);
+        imagediv.appendChild(image);
+        image.classList.add("showcaseimage");
+
+        const descdiv = document.createElement("div");
+        const p = document.createElement("p");
+        p.classList.add("showcasedescription")
+        p.innerHTML = match.desc
+        const strong = document.createElement("strong");
+        strong.innerHTML = match.display;
+        descdiv.appendChild(strong);
+        descdiv.appendChild(p);
+        descdiv.style.marginTop = "5px";
+        descdiv.style.padding = "0px 15px 0px 15px";
+        descdiv.style.fontSize = "16px";
+        
+        link.appendChild(imagediv);
+        link.appendChild(descdiv);
+
         condiv.appendChild(link);
         results.appendChild(condiv);
     };
 };
+
+
+
+
+function noresults(){
+    const ogquery = new URLSearchParams(window.location.search).get("q");
+    /*element.setAttribute('id','idname') how do i add id to the h1 text thingy "no results for:"*/
+    document.querySelector("#noresults").innerHTML = `No results for: ${ogquery}`
+}

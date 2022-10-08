@@ -35,16 +35,16 @@
                         From Many Institutes and Companies.
                     </div>
                     <div class="search-wrapper">
-                        <form class="search-bar">
-                            <input id="searchInput" type="text" list="input" placeholder="explore courses">
-                            <button type="submit makes the page reset so we wil" onclick="storesearch()"><img src="ics3up-search-icon.png"></button>
+                        <div class="search-bar">
+                            <input id="searchInput" list="input" placeholder="explore courses" onkeypress="storesearchenter(event);">
+                            <button type="button" onclick="storesearch()"><img src="ics3up-search-icon.png"></button>
                             <datalist id="input">
                                 <option value="CS50W"></option>
                                 <option value="CS50P"></option>
                                 <option value="CS50x"></option>
                                 <option value="MIT.6.001x"></option>
                             </datalist>
-                        </form>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -73,11 +73,23 @@
                             <p id="main-page-body-section2-description">
                                 <ul>
                                     <li>
+
                                         <h6 id="main-page-body-section2-description-list-caption">lrnX supports learning from all kinds of people!</h6>
                                         <p id="main-page-body-section2-description-list-feature">Giving students opportunities to expand on their Computer Science and Logical skills.</p>
 
                                     </li>
-                                    
+                                    <li>
+                                        
+                                        <h6 id="main-page-body-section2-description-list-caption">lrnX adds new courses whenever we can!</h6>
+                                        <p id="main-page-body-section2-description-list-feature">Explore our library of Web Development, Python, JavaScript, and the C Series!</p>
+
+                                    </li>
+                                    <li>
+                                        
+                                        <h6 id="main-page-body-section2-description-list-caption">lrnX provides learning freedom!</h6>
+                                        <p id="main-page-body-section2-description-list-feature">Each course is unique in its own way as it can attend to different learning skills.</p>
+
+                                    </li>
                                 </ul>
                             </p>
                         </div>

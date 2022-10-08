@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+    
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,7 +15,7 @@
         <script type="text/javascript" src="searchbar.js"></script>  
         <title>lrnX: Online Courses - Explore! </title>
     </head>
-    <body>
+    <body onload="noresults()">
         <nav class="sticky navbar">
             <div class="navbar-left">
                 <a href="index.html"><h3 id="lrnx-navbar-page-title">lrnX</h3></a>
@@ -22,6 +23,13 @@
             <div id="linkdiv">
                 <a href="courses-page-files/courses.html">Courses</a>
                 <a href="aboutus-file/aboutus.html">About Us</a>
+            </div>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col">
+                        <h1 id="noresults" class="show-results-header-page"></h1>
+                    </div>
+                </div>
             </div>
         </nav>
     </body>
