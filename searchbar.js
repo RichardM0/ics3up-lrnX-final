@@ -1,4 +1,4 @@
-const pages = [];
+const pages = ["test"];
 
 function storesearch(){
     const query = document.getElementById("searchInput").value.trim();

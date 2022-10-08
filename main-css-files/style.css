@@ -7,7 +7,7 @@ a:link, a:visited {
     color: rgb(117, 5, 197);
 }
 #main-page-header{
-    height:720px;
+    height:660px;
     background-color:#f5f1f1;
 }
 
@@ -31,26 +31,36 @@ a:link, a:visited {
     width:100%;
     justify-content:center;
 }
+#main-page-body-section1-image-wrapper{
+    display:flex;
+    justify-content:center;
+}
 #main-page-body-section1{
     font-size:20px;
     width:100%;
+    display:flex;
     justify-content:center;
+    height:600px;
 }
 #main-page-body-section1-image{
     width:600px;
     height:350px;
     box-shadow: 5px 15px 50px rgb(39, 36, 36);
-    justify-content:center;
+    margin-right:50px;
 }
 #main-page-body-section1-title{
     font-size:20px;
     text-align:left;
-    font-size:44px;
+    font-size:46px;
     justify-content:center;
+    font-weight:bold;
 
 }
-
-
+#main-page-body-words-section1-wrapper{
+    margin-top:35px;
+    margin-left:60px;
+    width:500px;
+}
 #main-page-body-section1-description{
     font-size:24px;
     margin-top:15px;
@@ -67,4 +77,52 @@ a:link, a:visited {
 #main-page-body-wrapper{
     width:100%;
     justify-content:center;
+}
+#main-page-body-section2-image-wrapper{
+    display:flex;
+    justify-content:center;
+}
+#main-page-body-section2{
+    font-size:20px;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    height:500px;
+    background-color:#4B0082;
+}
+#main-page-body-section2-image{
+    margin-top:30px;
+    width:800px;
+    height:445px;
+    box-shadow: 5px 15px 50px rgb(39, 36, 36);
+    margin-left:50px;
+}
+#main-page-body-section2-title{
+    font-size:20px;
+    text-align:left;
+    font-size:42px;
+    justify-content:center;
+    font-weight:bold;
+
+}
+#main-page-body-words-section2-wrapper{
+    margin-top:55px;
+    margin-right:60px;
+    width:720px;
+    color:rgb(232, 227, 227);
+}
+#main-page-body-section2-description{
+    font-size:24px;
+    margin-top:15px;
+    font-size:20px;
+    text-align:left;
+    justify-content:center;
+}
+#main-page-body-section2-description-list-caption{
+    font-size:28px;
+    font-weight:bold;
+}
+#main-page-body-section2-description-list-feature{
+    margin-left:10px;
+    font-size:20px;
 }
