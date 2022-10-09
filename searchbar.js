@@ -5,9 +5,18 @@ mit6001x.name = "mit6001x"; //what will the search query be?
 mit6001x.image = "ics3up-MITx6001x.jpeg"; //link to image for the course (relative to results.html)
 mit6001x.display = "MIT's Introduction to Computer Science with Python"; //what will the bolded heading say?
 mit6001x.desc = " Intermediate and beginner course for those interested in programming with Python! Includes complexity, data types, and more."; //what will the description say?
-mit6001x.link = "../courseslist/mit6001x.html"; //what should it be linked to? (relative to results.html)
-mit6001x.keywords = ["mit","python","6001x"]; //some keywords that will also bring up the course
+mit6001x.link = "../ics3up-lrnX-final/courseslist/mit6001x.html"; //what should it be linked to? (relative to results.html)
+mit6001x.keywords = ["mit","python","6001x",""]; //some keywords that will also bring up the course
 pages.push(mit6001x);
+
+const CS50W = {};
+CS50W.name = "CS50W"; //what will the search query be?
+CS50W.image = "ics3up-CS50W.webp"; //link to image for the course (relative to results.html)
+CS50W.display = "CS50W's Web Development with Python and JavaScript"; //what will the bolded heading say?
+CS50W.desc =  "Learn Web Development using Python, Javascript, Django, SQL and more!"; //what will the description say?
+CS50W.link = "../ics3up-lrnX-final/courseslist/CS50W.html"; //what should it be linked to? (relative to results.html)
+CS50W.keywords = ["javascript","python","harvard","cs50", "web development", "web programming"]; //some keywords that will also bring up the course
+pages.push(CS50W);
 
 
 function storesearch(){
@@ -82,7 +91,7 @@ function search(){
         strong.innerHTML = match.display;
         descdiv.appendChild(strong);
         descdiv.appendChild(p);
-        descdiv.style.marginTop = "5px";
+        descdiv.style.marginTop = "15px";
         descdiv.style.padding = "0px 15px 0px 15px";
         descdiv.style.fontSize = "16px";
         
