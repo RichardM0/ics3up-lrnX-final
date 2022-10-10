@@ -90,7 +90,7 @@ a:link, a:visited {
     background-color:#4B0082;
 }
 #main-page-body-section2-image{
-    margin-top:30px;
+    margin-top:95px;
     width:800px;
     height:445px;
     box-shadow: 5px 15px 50px rgb(39, 36, 36);
@@ -105,14 +105,14 @@ a:link, a:visited {
 
 }
 #main-page-body-words-section2-wrapper{
-    margin-top:55px;
+    margin-top:85px;
     margin-right:60px;
     width:720px;
     color:rgb(232, 227, 227);
 }
 #main-page-body-section2-description{
     font-size:24px;
-    margin-top:15px;
+    margin-top:45px;
     font-size:20px;
     text-align:left;
     justify-content:center;
