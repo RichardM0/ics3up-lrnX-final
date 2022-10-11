@@ -34,6 +34,8 @@ a:link, a:visited {
 #main-page-body-section1-image-wrapper{
     display:flex;
     justify-content:center;
+    width:600px;
+    margin-top:30px;
 }
 #main-page-body-section1{
     font-size:20px;
@@ -43,7 +45,6 @@ a:link, a:visited {
     height:600px;
 }
 #main-page-body-section1-image{
-    width:600px;
     height:350px;
     box-shadow: 5px 15px 50px rgb(39, 36, 36);
     margin-right:50px;
@@ -332,4 +333,11 @@ a:link, a:visited {
     text-align:center;
     margin-top:50px;
     margin-left:35px;
+}
+#aboutus-index-link{
+    text-decoration:none; 
+    color:white;
+}
+#aboutus-index-link:hover{
+    color:#c8abdd;
 }

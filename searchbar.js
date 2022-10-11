@@ -1,4 +1,3 @@
-
 function storesearch(){
     const query = document.getElementById("searchInput").value.trim();
     window.location.href = `results.html?q=${encodeURIComponent(query)}`;
@@ -51,6 +50,7 @@ function search(){
     for (const match of matches){
         const condiv = document.createElement("div");
         condiv.classList.add("showcaseitem");
+        condiv.classList.add("col-1-md")
 
         const link = document.createElement("a");
         link.href = match.link;
@@ -93,14 +93,16 @@ function noresults(){
 }
 const pages = [];
 
+
 const mit6001x = {};
 mit6001x.name = "mit6001x"; //what will the search query be?
 mit6001x.image = "ics3up-MITx6001x.jpeg"; //link to image for the course (relative to results.html)
 mit6001x.display = "MIT's Introduction to Computer Science with Python"; //what will the bolded heading say?
-mit6001x.desc = " Intermediate and beginner course for those interested in programming with Python! Includes complexity, data types, and more."; //what will the description say?
+mit6001x.desc = "Intermediate and beginner course for those interested in programming with Python! Includes complexity, data types, and more."; //what will the description say?
 mit6001x.link = "../ics3up-lrnX-final/courseslist/mit6001x.html"; //what should it be linked to? (relative to results.html)
 mit6001x.keywords = ["mit","python","6001x","introduction"]; //some keywords that will also bring up the course
 pages.push(mit6001x);
+
 
 const CS50W = {};
 CS50W.name = "CS50W"; //what will the search query be?
@@ -130,4 +132,4 @@ CS50x.keywords = ["C++","harvard","cs50","introduction","beginning",]; //some ke
 pages.push(CS50x);
 
 
-// TO ADD  CS50x IBMDSC++ IbMFC++ IBMWJS 
+// TO ADD  CS50x IBMDSC++ IBMFC++ IBMWJS  UoPjs klwebsec W3CIWA W3CHC W3CH CS50AI CS50M

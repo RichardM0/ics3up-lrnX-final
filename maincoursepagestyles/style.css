@@ -13,8 +13,9 @@
     text-align:center;
     display:inline-block;
     display:flex;
-    justify-content:center;
+    justify-content:left;
     margin:0px;
+    margin-left:65px;
 
 }
 
@@ -92,6 +93,7 @@
 #specific-course-image{
     width:442.5px;
     height:256.5px;
+    border-radius:5px;
 }
 #course-time-information-wrapper{
     padding:25px 0px 25px 0px;
@@ -104,4 +106,5 @@
     height:100%;
     margin-top:100px;
     background-color:#e6dfdf;
+    border-radius:9px;
 }
