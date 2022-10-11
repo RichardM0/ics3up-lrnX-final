@@ -132,4 +132,4 @@ CS50x.keywords = ["C++","harvard","cs50","introduction","beginning",]; //some ke
 pages.push(CS50x);
 
 
-// TO ADD  CS50x IBMDSC++ IBMFC++ IBMWJS  UoPjs klwebsec W3CIWA W3CHC W3CH CS50AI CS50M
+// TO ADD IBMDSC++ IBMFC++ IBMWJS  UoPjs klwebsec W3CIWA W3CHC W3CH CS50AI CS50M
