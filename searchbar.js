@@ -47,11 +47,22 @@ function search(){
         res.classList.add('show-results-header-page')
         document.querySelector("#heading").appendChild(res)
     };
+    let counter = 0;
+    let rowdiv = document.createElement("div");
+    rowdiv.classList.add("row");
+    rowdiv.setAttribute("id","webdev-showcase-items-row1");
+    rowdiv.style.margin = "0px";
+    rowdiv.style.marginLeft = "65px"
+    rowdiv.style.justifyContent = "flex-start";
+    results.appendChild(rowdiv);
+
     for (const match of matches){
+        counter++;
+        counter==5?counter=1:false;
         const condiv = document.createElement("div");
         condiv.classList.add("showcaseitem");
-        condiv.classList.add("col-1-md")
-
+        condiv.classList.add(`col-${counter}-md`) ;
+        condiv.style.marginTop = "40px";
         const link = document.createElement("a");
         link.href = match.link;
         link.style.textDecoration = "none";
@@ -65,8 +76,8 @@ function search(){
 
         const descdiv = document.createElement("div");
         const p = document.createElement("p");
-        p.classList.add("showcasedescription")
-        p.innerHTML = match.desc
+        p.classList.add("showcasedescription");
+        p.innerHTML = match.desc;
         const strong = document.createElement("strong");
         strong.innerHTML = match.display;
         descdiv.appendChild(strong);
@@ -79,7 +90,8 @@ function search(){
         link.appendChild(descdiv);
 
         condiv.appendChild(link);
-        results.appendChild(condiv);
+        rowdiv.appendChild(condiv);
+
     };
 };
 
@@ -131,5 +143,49 @@ CS50x.link = "../ics3up-lrnX-final/courseslist/CS50x.html"; //what should it be 
 CS50x.keywords = ["C++","harvard","cs50","introduction","beginning",]; //some keywords that will also bring up the course
 pages.push(CS50x);
 
+const CS50M = {};
+CS50M.name = "CS50M"; //what will the search query be?
+CS50M.image = "ics3up-CS50M.webp"; //link to image for the course (relative to results.html)
+CS50M.display = "CS50M: Mobile App Development with React Native"; //what will the bolded heading say?
+CS50M.desc =  " Learn about mobile app development with React Native, a popular framework maintained by Facebook that enables cross-platform native apps using JavaScript without Java or Swift."; //what will the description say?
+CS50M.link = "../ics3up-lrnX-final/courseslist/CS50M.html"; //what should it be linked to? (relative to results.html)
+CS50M.keywords = ["react native","react","harvard","cs50","web programming","javascript", "web development",]; //some keywords that will also bring up the course
+pages.push(CS50M);
 
-// TO ADD IBMDSC++ IBMFC++ IBMWJS  UoPjs klwebsec W3CIWA W3CHC W3CH CS50AI CS50M
+const CS50AI = {};
+CS50AI.name = "CS50AI"; //what will the search query be?
+CS50AI.image = "ics3up-CS50AI.webp"; //link to image for the course (relative to results.html)
+CS50AI.display = "CS50AI: Introduction to Artificial Intelligence with Python"; //what will the bolded heading say?
+CS50AI.desc =  "Learn to use machine learning in Python in this introductory course on artificial intelligence."; //what will the description say?
+CS50AI.link = "../ics3up-lrnX-final/courseslist/CS50AI.html"; //what should it be linked to? (relative to results.html)
+CS50AI.keywords = ["ai","artificial intelligence","harvard","cs50","python","introduction", "beginner",]; //some keywords that will also bring up the course
+pages.push(CS50AI);
+
+const IBMDSC = {};
+IBMDSC.name = "IBMDSC++"; //what will the search query be?
+IBMDSC.image = "ics3up-IBMDSC++.webp"; //link to image for the course (relative to results.html)
+IBMDSC.display = "IBM: Data Structures and Algorithms using C++"; //what will the bolded heading say?
+IBMDSC.desc =  "Build efficient programs by learning how to implement data structures using algorithmic techniques and solve various computational problems using the C++ programming language."; //what will the description say?
+IBMDSC.link = "../ics3up-lrnX-final/courseslist/IBMDSC++.html"; //what should it be linked to? (relative to results.html)
+IBMDSC.keywords = ["data science","ibm","algorithm","data structures","data", "c++",]; //some keywords that will also bring up the course
+pages.push(IBMDSC);
+
+const IBMFC = {};
+IBMFC.name = "IBMFC++"; //what will the search query be?
+IBMFC.image = "ics3up-IBMFC++.webp"; //link to image for the course (relative to results.html)
+IBMFC.display = "IBM: Fundamentals with C++"; //what will the bolded heading say?
+IBMFC.desc =  "An introductory course with C++ that inspires kinesthetic learners!"; //what will the description say?
+IBMFC.link = "../ics3up-lrnX-final/courseslist/IBMFC++.html"; //what should it be linked to? (relative to results.html)
+IBMFC.keywords = ["starter","ibm","beginner","introduction","fundamentals", "c++",]; //some keywords that will also bring up the course
+pages.push(IBMFC);
+
+const IBMWJS = {};
+IBMWJS.name = "IBMWJS"; //what will the search query be?
+IBMWJS.image = "ics3up-IBMJS.webp"; //link to image for the course (relative to results.html)
+IBMWJS.display = "IBM: Web Developing in the Cloud with JavaScript"; //what will the bolded heading say?
+IBMWJS.desc =  "Using JavaScript and more to learn web development, and web development with the cloud."; //what will the description say?
+IBMWJS.link = "../ics3up-lrnX-final/courseslist/IBMWJS.html"; //what should it be linked to? (relative to results.html)
+IBMWJS.keywords = ["cloud","ibm","javascript","web development","front-end", "develop",]; //some keywords that will also bring up the course
+pages.push(IBMWJS);
+
+// TO ADD  UoPjs klwebsec W3CIWA W3CHC W3CH IBMPDS IBMLP ACCAML

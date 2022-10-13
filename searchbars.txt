@@ -1,0 +1,8 @@
+const IBMWJS = {};
+IBMWJS.name = "IBMWJS"; //what will the search query be?
+IBMWJS.image = "ics3up-IBMWJS.webp"; //link to image for the course (relative to results.html)
+IBMWJS.display = "IBM: Web Developing in the Cloud with JavaScript"; //what will the bolded heading say?
+IBMWJS.desc =  "Using JavaScript and more to learn web development, and web development with the cloud."; //what will the description say?
+IBMWJS.link = "../ics3up-lrnX-final/courseslist/IBMWJS.html"; //what should it be linked to? (relative to results.html)
+IBMWJS.keywords = ["cloud","ibm","javascript","web development","front-end", "develop",]; //some keywords that will also bring up the course
+pages.push(IBMWJS);

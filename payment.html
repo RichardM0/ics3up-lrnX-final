@@ -26,118 +26,167 @@
             </div>
         </nav>
         <div style="background-color:#fafafa"class="container-fluid">
-            <div class="row" style="height:1660px;;">
+            <h1 style="margin-top:10px; margin-left:25px; font-weight:bold; font-size:60px;"> Payment Info </h1>
+            <div class="row">
                 <div class="col">
-                    <h1 id="purchase-header-tag">Payment Info</h1>
                     <form id="payment-info-wrapper">
-                        <div style="margin-bottom:35px;">
-                            <label id="fname-label"for="fname">First Name: </label>
-                            <label id="lname-label"for="lname">Last Name: </label><br>
-                            <input id="fname-input" type="text" name="fname">
-                            <input id="lname-input" type="text" name="lname"><br>
-                        </div>
-                        <div>
-                            <label id="credit-card-label"for="ccardno">Credit/Debit Card Number: </label>
-                            <label id="cvv-label"for="cvv">CVV: </label><br>
-                            <input id="credit-card-input" type="text" name="ccardno">
-                            <input id="cvv-input" type="text" name="cvv"><br>
-                        </div>
-                        <div>
-                            <label id="exp-year-label" for="expyear">Year:</label>
-                            <label id="exp-month-label" for="expmonth">Month:</label>
-                            <label id="exp-day-label" for="expday">Day:</label><br>
-
-                            <select id="exp-year" name="expyear">
-                                <option value="2023">2023</option>
-                                <option value="2024">2024</option>
-                                <option value="2025">2025</option>
-                                <option value="2026">2026</option>
-                                <option value="2027">2027</option>
-                                <option value="2028">2028</option>
-                                <option value="2029">2029</option>
-                                <option value="2030">2030</option>
-                                <option value="2031">2031</option>
-                                <option value="2032">2032</option>
-                                <option value="2033">2033</option>
-                                <option value="2034">2034</option>
-                                <option value="2035">2035</option>
-                                <option value="2036">2036</option>
-                                <option value="2037">2037</option>
-                                <option value="2038">2038</option>
-                                <option value="2039">2039</option>    
-                            </select>
-
-                            <select id="exp-month" name="expmonth">
-                                <option value="January">January</option>
-                                <option value="February">February</option>
-                                <option value="March">March</option>
-                                <option value="April">April</option>
-                                <option value="May">May</option>
-                                <option value="June">June</option>
-                                <option value="July">July</option>
-                                <option value="August">August</option>
-                                <option value="September">September</option>
-                                <option value="October">October</option>
-                                <option value="November">November</option>
-                                <option value="December">December</option>
-                            </select>
-
-                            <select id="exp-day" name="expday">
-                                <option value="1">1</option>
-                                <option value="2">2</option>
-                                <option value="3">3</option>
-                                <option value="4">4</option>
-                                <option value="5">5</option>
-                                <option value="6">6</option>
-                                <option value="7">7</option>
-                                <option value="8">8</option>
-                                <option value="9">9</option>
-                                <option value="10">10</option>
-                                <option value="11">11</option>
-                                <option value="12">12</option>
-                                <option value="13">13</option>
-                                <option value="14">14</option>
-                                <option value="15">15</option>
-                                <option value="16">16</option>
-                                <option value="17">17</option>
-                                <option value="18">18</option>
-                                <option value="19">19</option>
-                                <option value="20">20</option>
-                                <option value="21">21</option>
-                                <option value="22">22</option>
-                                <option value="23">23</option>
-                                <option value="24">24</option>
-                                <option value="25">25</option>
-                                <option value="26">26</option>
-                                <option value="27">27</option>
-                                <option value="28">28</option>
-                                <option value="29">29</option>
-                                <option value="30">30</option>
-                                <option value="31">31</option>
-                            </select>
-                        </div>
-                        <div>
-                            <label id="billing-label"for="billing">Billing Adress: </label><br>
-                            <input id="billing-input" type="text" name="billinput"> <br>
-
-                            <label id="street-label"for="billing">Street Address </label>
-                            <label id="stateprov-label"for="billing">State/Province/Region: </label><br>
-                            <input id="street-input" type="text" name="billinput">
-                            <input id="stateprov-input" type="text" name="billinput"> <br>
-
-                            <label id="street-label"for="billing">City </label>
-                            <label id="stateprov-label"for="billing">Country: </label><br>
-                            <input id="street-input" type="text" name="billinput">
-                            <input id="stateprov-input" type="text" name="billinput"> <br>
-
-                            <label id="street-label"for="billing">Postal/Zip Code </label><br>
-                            <input id="zipcode-input" type="text" name="billinput"> <br>
-
-                            <a href="index.html"><button id="submit-payment-button" type="button">Submit</button></a>
-                        </div>
-
+                        <label id="fname-label"for="fname">First Name: </label>
+                        <input id="fname-input" type="text" name="fname">
+                    </form>
+                </div>
+                <div class="col">  
+                    <form id="payment-info-wrapper"> 
+                        <label id="lname-label"for="lname">Last Name: </label><br>
+                        <input id="lname-input" type="text" name="lname"><br>
+                    </form>
+                </div>
+            </div>
+            <div class="row" style="margin-top:45px;">
+                <div class="col">
+                    <form id="payment-info-wrapper">
+                        <label id="credit-card-label"for="ccardno">Credit/Debit Card Number: </label>
+                        <input id="credit-card-input" type="text" name="ccardno">
+                    </form>
+                </div>
+                <div class="col">
+                    <form id="payment-info-wrapper">
+                        <label id="cvv-label"for="cvv">CVV: </label><br>
+                        <input id="cvv-input" type="text" name="cvv"><br>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <form id="payment-info-wrapper">
+                        <label id="exp-year-label" for="expyear">Year:</label>
+                        <select id="exp-year" name="expyear">
+                            <option value="2023">2023</option>
+                            <option value="2024">2024</option>
+                            <option value="2025">2025</option>
+                            <option value="2026">2026</option>
+                            <option value="2027">2027</option>
+                            <option value="2028">2028</option>
+                            <option value="2029">2029</option>
+                            <option value="2030">2030</option>
+                            <option value="2031">2031</option>
+                            <option value="2032">2032</option>
+                            <option value="2033">2033</option>
+                            <option value="2034">2034</option>
+                            <option value="2035">2035</option>
+                            <option value="2036">2036</option>
+                            <option value="2037">2037</option>
+                            <option value="2038">2038</option>
+                            <option value="2039">2039</option>    
+                        </select>
+                    </form>
+                </div>
+                <div class="col">
+                    <form id="payment-info-wrapper">
+                        <label id="exp-month-label" for="expmonth">Month:</label>
+                        <select id="exp-month" name="expmonth">
+                            <option value="January">January</option>
+                            <option value="February">February</option>
+                            <option value="March">March</option>
+                            <option value="April">April</option>
+                            <option value="May">May</option>
+                            <option value="June">June</option>
+                            <option value="July">July</option>
+                            <option value="August">August</option>
+                            <option value="September">September</option>
+                            <option value="October">October</option>
+                            <option value="November">November</option>
+                            <option value="December">December</option>
+                        </select>
+                    </form>
+                </div>
+                <div class="col">
+                    <form id="payment-info-wrapper">
+                        <label id="exp-day-label" for="expday">Day:</label><br>
+                        <select id="exp-day" name="expday">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                        </select>
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <form id="payment-info-wrapper">
+                        <label id="billing-label"for="billing">Billing Adress: </label><br>
+                        <input id="billing-input" type="text" name="billinput"> <br>
                         
-
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <form id="payment-info-wrapper">
+                        <label id="billing-label"for="billing">Street Address </label>
+                        <input id="billing-input" type="text" name="billinput">
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <form id="payment-info-wrapper">
+                        <label id="stateprov-label"for="billing">State/Province/Region: </label><br>
+                        <input id="stateprov-input" type="text" name="billinput"> <br>
+                        
+                    </form>
+                </div>
+                <div class="col">
+                    <form id="payment-info-wrapper">
+                        <label id="street-label"for="billing">City </label>
+                        <input id="street-input" type="text" name="billinput">
+                    </form>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <form id="payment-info-wrapper">
+                        <label id="stateprov-label"for="billing">Country: </label><br>
+                        <input id="stateprov-input" type="text" name="billinput"> <br>
+                    </form>
+                </div>
+                <div class="col">
+                    <form id="payment-info-wrapper">
+                        <label id="street-label"for="billing">Postal/Zip Code </label><br>
+                        <input id="zipcode-input" type="text" name="billinput"> <br>
+                        
+                    </form>
+                </div>
+                <div class="col">
+                    <form id="payment-info-wrapper">
+                        <a href="index.html"><button id="submit-payment-button" type="button">Submit</button></a>
                     </form>
                 </div>
             </div>
