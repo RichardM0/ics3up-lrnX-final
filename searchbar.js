@@ -188,4 +188,22 @@ IBMWJS.link = "../ics3up-lrnX-final/courseslist/IBMWJS.html"; //what should it b
 IBMWJS.keywords = ["cloud","ibm","javascript","web development","front-end", "develop",]; //some keywords that will also bring up the course
 pages.push(IBMWJS);
 
-// TO ADD  UoPjs klwebsec W3CIWA W3CHC W3CH IBMPDS IBMLP ACCAML
+const UoPjs = {};
+UoPjs.name = "UoPjs"; //what will the search query be?
+UoPjs.image = "ics3up-UoPjs.webp"; //link to image for the course (relative to results.html)
+UoPjs.display = "UoP: Programming for the Web with JavaScript"; //what will the bolded heading say?
+UoPjs.desc =  "Learn how to develop dynamic, interactive, and data-driven web apps using JavaScript."; //what will the description say?
+UoPjs.link = "../ics3up-lrnX-final/courseslist/UoPjs.html"; //what should it be linked to? (relative to results.html)
+UoPjs.keywords = ["javascript","uop","javascript","web development","front-end", "develop","university of pensylvannia"]; //some keywords that will also bring up the course
+pages.push(UoPjs);
+
+const klwebsec = {};
+klwebsec.name = "klwebsec"; //what will the search query be?
+klwebsec.image = "ics3up-klwebsec.jpg"; //link to image for the course (relative to results.html)
+klwebsec.display = "Ku Leuven's Web Security Fundamentals"; //what will the bolded heading say?
+klwebsec.desc =  "Essential knowledge for every web developer, discover important principles of modern web security, and learn about current security best practices."; //what will the description say?
+klwebsec.link = "../ics3up-lrnX-final/courseslist/klwebsec.html"; //what should it be linked to? (relative to results.html)
+klwebsec.keywords = ["web security","ku leuven","javascript","web development","front-end", "develop","web"]; //some keywords that will also bring up the course
+pages.push(klwebsec);
+
+// TO ADD W3CIWA W3CHC W3CH IBMPDS IBMLP ACCAML
