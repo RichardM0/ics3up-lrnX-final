@@ -344,3 +344,10 @@ a:link, a:visited {
 #main-page-body-section2-description-courselink:hover{
     color:#c8abdd;
 }
+#footer-thing{
+    text-decoration:none; 
+    color:#fafafa
+}
+#footer-thing:hover{
+    color:#bd97d8
+}

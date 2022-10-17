@@ -1,7 +1,6 @@
 #courses-page-header{
-    background-color:#4B0082;
-    height:870px;
-
+    background-image: linear-gradient(#4B0082, #bd97d8);
+    height:970px;
 }
 #courses-page-title{
     text-align:left;

@@ -64,7 +64,8 @@
     text-align:center;
     display:flex;
     justify-content:left;
-    margin:35px;
+    margin-left:25px;
+    margin-bottom:40px;
 }
 
 #showcase-item1-picture,#showcase-item2-picture,#showcase-item3-picture,#showcase-item4-picture{

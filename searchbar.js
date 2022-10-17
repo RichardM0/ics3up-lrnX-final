@@ -51,7 +51,7 @@ function search(){
     let rowdiv = document.createElement("div");
     rowdiv.classList.add("row");
     rowdiv.setAttribute("id","webdev-showcase-items-row1");
-    rowdiv.style.margin = "0px";
+    rowdiv.style.marginTop = "30px";
     rowdiv.style.marginLeft = "65px"
     rowdiv.style.justifyContent = "flex-start";
     results.appendChild(rowdiv);
@@ -62,7 +62,7 @@ function search(){
         const condiv = document.createElement("div");
         condiv.classList.add("showcaseitem");
         condiv.classList.add(`col-${counter}-md`) ;
-        condiv.style.marginTop = "30px";
+        condiv.style.marginBottom = "30px";
         condiv.style.marginRight = "13px";
         condiv.style.marginLeft = "27px";
         const link = document.createElement("a");
@@ -190,6 +190,24 @@ IBMWJS.link = "../ics3up-lrnX-final/courseslist/IBMWJS.html"; //what should it b
 IBMWJS.keywords = ["cloud","ibm","javascript","web development","front-end", "develop",]; //some keywords that will also bring up the course
 pages.push(IBMWJS);
 
+const IBMPDS = {};
+IBMPDS.name = "IBMPDS"; //what will the search query be?
+IBMPDS.image = "ics3up-IBMPDS.webp"; //link to image for the course (relative to results.html)
+IBMPDS.display = "IBM: Python Basics for Data Science"; //what will the bolded heading say?
+IBMPDS.desc =  "This Python course provides a beginner-friendly introduction to Python for Data Science. Practice through lab exercises, and you'll be ready to create your first Python scripts on your own."; //what will the description say?
+IBMPDS.link = "../ics3up-lrnX-final/courseslist/IBMPDS.html"; //what should it be linked to? (relative to results.html)
+IBMPDS.keywords = ["python","ibm","basics","data science","data", "beginner","introduction",]; //some keywords that will also bring up the course
+pages.push(IBMPDS);
+
+const IBMLP = {};
+IBMLP.name = "IBMLP"; //what will the search query be?
+IBMLP.image = "ics3up-IBMLP.webp"; //link to image for the course (relative to results.html)
+IBMLP.display = "IBM: Machine Learning with Python"; //what will the bolded heading say?
+IBMLP.desc =  "Machine Learning can be an incredibly beneficial tool to uncover hidden insights and predict future trends. This Machine Learning with Python course will give you all the tools you need to get started with supervised and unsupervised learning."; //what will the description say?
+IBMLP.link = "../ics3up-lrnX-final/courseslist/IBMLP.html"; //what should it be linked to? (relative to results.html)
+IBMLP.keywords = ["python","ibm","machine learning","ai","data", "neural","artificial intelligence",]; //some keywords that will also bring up the course
+pages.push(IBMLP);
+
 const UoPjs = {};
 UoPjs.name = "UoPjs"; //what will the search query be?
 UoPjs.image = "ics3up-UoPjs.webp"; //link to image for the course (relative to results.html)
@@ -208,4 +226,4 @@ klwebsec.link = "../ics3up-lrnX-final/courseslist/klwebsec.html"; //what should 
 klwebsec.keywords = ["web security","ku leuven","javascript","web development","front-end", "develop","web"]; //some keywords that will also bring up the course
 pages.push(klwebsec);
 
-// TO ADD W3CIWA W3CHC W3CH IBMPDS IBMLP ACCAML
+// TO ADD W3CIWA W3CHC W3CH ACCAML
