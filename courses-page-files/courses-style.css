@@ -53,11 +53,9 @@
     border:0px solid black;
     border-radius:25px;
     text-align:center;
-    min-width:210px;
-    min-height:240px;
-    max-width:350px;
-    max-height:400px;
-    margin:30px 40px;
+    width:350px;
+    height:400px;
+    margin:30px 27px;
     background-color:white;
 
 }
@@ -67,17 +65,13 @@
     display:flex;
     justify-content:left;
     margin:35px;
-    margin-left:80px;
-
 }
 
 #showcase-item1-picture,#showcase-item2-picture,#showcase-item3-picture,#showcase-item4-picture{
     border-style:0px none black; 
     border-radius:5px;
-    min-width:210px;
-    min-height:110px;
-    max-width:350px;
-    max-height:168px;
+    width:350px;
+    height:168px;
     position:relative;
     right:11px;
 }
@@ -88,9 +82,9 @@
 }
 #top-courses-label{
     margin-top:35px;
-    margin-left:75px;
     font-size:70px;
     font-weight:bold;
+    margin-left:15px;
 
 
 }
