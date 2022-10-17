@@ -62,7 +62,9 @@ function search(){
         const condiv = document.createElement("div");
         condiv.classList.add("showcaseitem");
         condiv.classList.add(`col-${counter}-md`) ;
-        condiv.style.marginTop = "40px";
+        condiv.style.marginTop = "30px";
+        condiv.style.marginRight = "13px";
+        condiv.style.marginLeft = "27px";
         const link = document.createElement("a");
         link.href = match.link;
         link.style.textDecoration = "none";
