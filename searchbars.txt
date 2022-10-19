@@ -1,8 +1,8 @@
-const klwebsec = {};
-klwebsec.name = "klwebsec"; //what will the search query be?
-klwebsec.image = "ics3up-klwebsec.jpg"; //link to image for the course (relative to results.html)
-klwebsec.display = "Ku Leuven's Web Security Fundamentals"; //what will the bolded heading say?
-klwebsec.desc =  "Essential knowledge for every web developer, discover important principles of modern web security, and learn about current security best practices."; //what will the description say?
-klwebsec.link = "../ics3up-lrnX-final/courseslist/klwebsec.html"; //what should it be linked to? (relative to results.html)
-klwebsec.keywords = ["web security","ku leuven","javascript","web development","front-end", "develop","web"]; //some keywords that will also bring up the course
-pages.push(klwebsec);
+const W3CH = {};
+W3CH.name = "W3CH"; //what will the search query be?
+W3CH.image = "ics3up-W3CH.webp"; //link to image for the course (relative to results.html)
+W3CH.display = "W3C: HTML5 Coding Essentials and Best Practices"; //what will the bolded heading say?
+W3CH.desc =  "Learn how to write Web pages and Web sites by mastering HTML5 coding techniques and best practices."; //what will the description say?
+W3CH.link = "../ics3up-lrnX-final/courseslist/W3CH.html"; //what should it be linked to? (relative to results.html)
+W3CH.keywords = ["css","fundamentals","basic","beginner","introduction","html","javascript","web development","front-end", "develop","web","w3c"]; //some keywords that will also bring up the course
+pages.push(W3CH);

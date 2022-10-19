@@ -26,13 +26,14 @@ function search(){
         };
         if (commonchar>page.name.length/2){
             matches.push(page);
+            
         }else{
             for(const keyword of page.keywords){
                 let commonchar = 0;
                 for(const i in keyword){
                     query[i] == keyword[i]?commonchar++:false;
                 };
-                if (commonchar>keyword.length/2){
+                if (commonchar>=keyword.length/2){
                     matches.push(page);
                 };
             };
@@ -226,4 +227,22 @@ klwebsec.link = "../ics3up-lrnX-final/courseslist/klwebsec.html"; //what should 
 klwebsec.keywords = ["web security","ku leuven","javascript","web development","front-end", "develop","web"]; //some keywords that will also bring up the course
 pages.push(klwebsec);
 
-// TO ADD W3CIWA W3CHC W3CH ACCAML
+const W3CHC = {};
+W3CHC.name = "W3CHC"; //what will the search query be?
+W3CHC.image = "ics3up-W3CHC.webp"; //link to image for the course (relative to results.html)
+W3CHC.display = "W3C: HTML5 and CSS Fundamentals"; //what will the bolded heading say?
+W3CHC.desc =  "Learn how to build Web sites using HTML5 and basic CSS, directly from W3C, creator of the latest Web standards."; //what will the description say?
+W3CHC.link = "../ics3up-lrnX-final/courseslist/W3CHC.html"; //what should it be linked to? (relative to results.html)
+W3CHC.keywords = ["css","html","javascript","web development","front-end", "develop","web","w3c"]; //some keywords that will also bring up the course
+pages.push(W3CHC);
+
+const W3CH = {};
+W3CH.name = "W3CH"; //what will the search query be?
+W3CH.image = "ics3up-W3CH.webp"; //link to image for the course (relative to results.html)
+W3CH.display = "W3C: HTML5 Coding Essentials and Best Practices"; //what will the bolded heading say?
+W3CH.desc =  "Learn how to write Web pages and Web sites by mastering HTML5 coding techniques and best practices."; //what will the description say?
+W3CH.link = "../ics3up-lrnX-final/courseslist/W3CH.html"; //what should it be linked to? (relative to results.html)
+W3CH.keywords = ["css","fundamentals","basic","beginner","introduction","html","javascript","web development","front-end", "develop","web","w3c"]; //some keywords that will also bring up the course
+pages.push(W3CH);
+
+// TO ADD W3CIWA ACCAML

@@ -1,21 +1,23 @@
+
 #showcase-item1, #showcase-item2, #showcase-item3, #showcase-item4{
     border:0px solid black;
     border-radius:25px;
     text-align:center;
     width:350px;
     height:400px;
-    margin:30px 27px;
+    margin-left:40px;
+    margin-bottom:30px;
     background-color:white;
 
 }
 
 #webdev-showcase-items-row1, #webdev-showcase-items-row2{
     text-align:center;
-    display:inline-block;
     display:flex;
     justify-content:left;
-    margin:0px;
     margin-bottom:40px;
+    margin-top:60px;
+    padding-left: calc(100vh / 7)
     
 }
 
@@ -31,9 +33,11 @@
     font-size:16px;
 }
 #webdev-label{
-    margin:0px;
+    margin-top:35px;
+    font-size:70px;
+    font-weight:bold;
     margin-left:15px;
-    font-size:42px;
+    padding-left:calc(100vh / 15)
 }
 #webdev-page-description{
     text-align:center;
