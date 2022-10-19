@@ -127,6 +127,10 @@
     background-color:#4B0082;
     
 }
+#btn-container{
+    position:relative;
+    left:calc(100fr/5.4)
+}
 #payment-btn a{
     text-decoration:none;
     color:#fafafa;
