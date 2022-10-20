@@ -265,7 +265,7 @@ W3CIWA.image = "ics3up-W3CIWA.webp"; //link to image for the course (relative to
 W3CIWA.display = "W3C's Introduction to Web Authentication"; //what will the bolded heading say?
 W3CIWA.desc =  "Web developers dig deep into modern Web Authentication to secure access to resources and applications"; //what will the description say?
 W3CIWA.link = "../ics3up-lrnX-final/courseslist/W3CIWA.html"; //what should it be linked to? (relative to results.html)
-W3CIWA.keywords = ["css","w3c","cs50","introduction","beginning","html","web","web development","authentication"]; //some keywords that will also bring up the course
+W3CIWA.keywords = ["css","w3c","introduction","beginning","html","web","web development","authentication"]; //some keywords that will also bring up the course
 pages.push(W3CIWA);
 
 const ACCAML = {};
