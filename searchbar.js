@@ -46,6 +46,8 @@ function search(){
         const res = document.createElement("h1");
         res.innerHTML = `Showing results for "${ogquery}"`
         res.classList.add('show-results-header-page')
+        res.style.paddingLeft = "calc(100vh / 12)";
+        res.style.fontSize = "60px";
         document.querySelector("#heading").appendChild(res)
     };
     let counter = 0;
@@ -55,6 +57,7 @@ function search(){
     rowdiv.style.marginTop = "30px";
     rowdiv.style.marginLeft = "65px"
     rowdiv.style.justifyContent = "flex-start";
+    rowdiv.style.paddingLeft = "calc(100vh / 10)";
     results.appendChild(rowdiv);
 
     for (const match of matches){
@@ -63,9 +66,8 @@ function search(){
         const condiv = document.createElement("div");
         condiv.classList.add("showcaseitem");
         condiv.classList.add(`col-${counter}-md`) ;
-        condiv.style.marginBottom = "30px";
-        condiv.style.marginRight = "13px";
-        condiv.style.marginLeft = "27px";
+        condiv.style.marginBottom = "50px";
+        condiv.style.marginLeft = "0px";
         const link = document.createElement("a");
         link.href = match.link;
         link.style.textDecoration = "none";
@@ -85,7 +87,7 @@ function search(){
         strong.innerHTML = match.display;
         descdiv.appendChild(strong);
         descdiv.appendChild(p);
-        descdiv.style.marginTop = "15px";
+        descdiv.style.marginTop = "0px";
         descdiv.style.padding = "0px 15px 0px 15px";
         descdiv.style.fontSize = "16px";
         
@@ -245,4 +247,4 @@ W3CH.link = "../ics3up-lrnX-final/courseslist/W3CH.html"; //what should it be li
 W3CH.keywords = ["css","fundamentals","basic","beginner","introduction","html","javascript","web development","front-end", "develop","web","w3c"]; //some keywords that will also bring up the course
 pages.push(W3CH);
 
-// TO ADD W3CIWA ACCAML
+// TO ADD W3CIWA ACCAML CS50G

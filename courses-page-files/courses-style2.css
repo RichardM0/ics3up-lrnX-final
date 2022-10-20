@@ -53,10 +53,10 @@
     border:0px solid black;
     border-radius:15px;
     text-align:center;
-    width:350px;
-    height:400px;
+    width:285px;
+    height:320px;
     margin-left:40px;
-    margin-bottom:50px;
+    margin-bottom:30px;
     background-color:white;
 
 }
@@ -67,19 +67,19 @@
     justify-content:left;
     margin-bottom:40px;
     margin-top:60px;
-    padding-left:calc(100vh / 7)
+    padding-left:calc(100vh / 3.3)
 }
 
 #showcase-item1-picture,#showcase-item2-picture,#showcase-item3-picture,#showcase-item4-picture{
     border-style:0px none black; 
     border-radius:5px;
-    width:350px;
-    height:168px;
+    width:285px;
+    height:130px;
     position:relative;
-    right:11px;
+    right:12px;
 }
 #showcase-item1-description,#showcase-item2-description,#showcase-item3-description,#showcase-item4-description{
-    margin-top:5px;
+    margin-top:10px;
     padding:0px 15px 0px 15px;
     font-size:16px;
 }
@@ -88,13 +88,13 @@
     font-size:70px;
     font-weight:bold;
     margin-left:15px;
-    padding-left:calc(100vh / 15);
+    padding-left:calc(100vh / 7);
 
 
 }
 #showcase-items-fulldescription{
     vertical-align: middle;
-    margin-top:30px;
+    margin-top:10px;
     font-size:14px;
     padding:0px 30px 0px 30px;
 }
