@@ -314,21 +314,24 @@ a:link, a:visited {
     border:1px black solid;
 }
 #zipcode-input{
+    margin-top:25px;
     height:80px;
     width:725px;
     border-radius:25px;
     margin-left:20px;
     border:1px black solid;
+    margin-bottom:25px;
 }
 #submit-payment-button{
     height:100px;
     width:250px;
-    border-radius:5px;
+    border-radius:12px;
     border:1px black solid;
     font-weight:bold;
     text-align:center;
     margin-top:50px;
     margin-left:35px;
+    margin-bottom:35px;
 }
 #aboutus-index-link{
     text-decoration:none; 

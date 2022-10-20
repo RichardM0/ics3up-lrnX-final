@@ -24,6 +24,9 @@ function search(){
         for(const i in page.name){
             query[i] == page.name[i]?commonchar++:false;
         };
+        if (matches.includes(page)){
+            continue
+        };
         if (commonchar>page.name.length/2){
             matches.push(page);
             
@@ -33,7 +36,7 @@ function search(){
                 for(const i in keyword){
                     query[i] == keyword[i]?commonchar++:false;
                 };
-                if (commonchar>=keyword.length/2){
+                if (commonchar>keyword.length/2){
                     matches.push(page);
                 };
             };
@@ -87,7 +90,7 @@ function search(){
         strong.innerHTML = match.display;
         descdiv.appendChild(strong);
         descdiv.appendChild(p);
-        descdiv.style.marginTop = "0px";
+        descdiv.style.margin = "0px 0px 0px 0px";
         descdiv.style.padding = "0px 15px 0px 15px";
         descdiv.style.fontSize = "16px";
         
@@ -247,4 +250,34 @@ W3CH.link = "../ics3up-lrnX-final/courseslist/W3CH.html"; //what should it be li
 W3CH.keywords = ["css","fundamentals","basic","beginner","introduction","html","javascript","web development","front-end", "develop","web","w3c"]; //some keywords that will also bring up the course
 pages.push(W3CH);
 
-// TO ADD W3CIWA ACCAML CS50G
+const CS50G = {};
+CS50G.name = "CS50G"; //what will the search query be?
+CS50G.image = "ics3up-CS50G.webp"; //link to image for the course (relative to results.html)
+CS50G.display = "CS50G's Introduction to Game Development"; //what will the bolded heading say?
+CS50G.desc =  "Learn about the development of 2D and 3D interactive games in this hands-on course, as you explore the design of games such as Super Mario Bros., Pokémon, Angry Birds, and more"; //what will the description say?
+CS50G.link = "../ics3up-lrnX-final/courseslist/CS50G.html"; //what should it be linked to? (relative to results.html)
+CS50G.keywords = ["C++","harvard","cs50","introduction","beginning","lua","games","game development"]; //some keywords that will also bring up the course
+pages.push(CS50G);
+
+const W3CIWA = {};
+W3CIWA.name = "W3CIWA"; //what will the search query be?
+W3CIWA.image = "ics3up-W3CIWA.webp"; //link to image for the course (relative to results.html)
+W3CIWA.display = "W3C's Introduction to Web Authentication"; //what will the bolded heading say?
+W3CIWA.desc =  "Web developers dig deep into modern Web Authentication to secure access to resources and applications"; //what will the description say?
+W3CIWA.link = "../ics3up-lrnX-final/courseslist/W3CIWA.html"; //what should it be linked to? (relative to results.html)
+W3CIWA.keywords = ["css","w3c","cs50","introduction","beginning","html","web","web development","authentication"]; //some keywords that will also bring up the course
+pages.push(W3CIWA);
+
+const ACCAML = {};
+ACCAML.name = "ACCAML"; //what will the search query be?
+ACCAML.image = "ics3up-ACCAML.webp"; //link to image for the course (relative to results.html)
+ACCAML.display = "ACCA: Machine Learning with Python for Financial Professionals"; //what will the bolded heading say?
+ACCAML.desc =  "A machine learning course focused on delivering practical Python skills for finance professionals looking to maximise their use of these time-saving tools within their organisation."; //what will the description say?
+ACCAML.link = "../ics3up-lrnX-final/courseslist/ACCAML.html"; //what should it be linked to? (relative to results.html)
+ACCAML.keywords = ["acca","python","ai","machine","financial","finance","machine learning"]; //some keywords that will also bring up the course
+pages.push(ACCAML);
+
+
+
+
+// TO ADD HARVP

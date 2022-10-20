@@ -101,6 +101,7 @@
 #course-time-information-wrapper{
     padding:25px 0px 25px 0px;
     width:100%;
+    box-shadow: 0 0.0625rem 0.125rem #00000026, 0 0.0625rem 0.25rem #00000026;
 }
 #course-time-information{
     list-style:none;
@@ -110,6 +111,7 @@
     margin-top:100px;
     background-color:#e6dfdf;
     border-radius:9px;
+    box-shadow: 0 0.0625rem 0.125rem #00000026, 0 0.0625rem 0.25rem #00000026;
 }
 
 

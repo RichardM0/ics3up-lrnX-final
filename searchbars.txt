@@ -1,8 +1,8 @@
-const W3CH = {};
-W3CH.name = "W3CH"; //what will the search query be?
-W3CH.image = "ics3up-W3CH.webp"; //link to image for the course (relative to results.html)
-W3CH.display = "W3C: HTML5 Coding Essentials and Best Practices"; //what will the bolded heading say?
-W3CH.desc =  "Learn how to write Web pages and Web sites by mastering HTML5 coding techniques and best practices."; //what will the description say?
-W3CH.link = "../ics3up-lrnX-final/courseslist/W3CH.html"; //what should it be linked to? (relative to results.html)
-W3CH.keywords = ["css","fundamentals","basic","beginner","introduction","html","javascript","web development","front-end", "develop","web","w3c"]; //some keywords that will also bring up the course
-pages.push(W3CH);
+const ACCAML = {};
+ACCAML.name = "ACCAML"; //what will the search query be?
+ACCAML.image = "ics3up-ACCAML.webp"; //link to image for the course (relative to results.html)
+ACCAML.display = "ACCA: Machine Learning with Python for Financial Professionals"; //what will the bolded heading say?
+ACCAML.desc =  "A machine learning course focused on delivering practical Python skills for finance professionals looking to maximise their use of these time-saving tools within their organisation."; //what will the description say?
+ACCAML.link = "../ics3up-lrnX-final/courseslist/ACCAML.html"; //what should it be linked to? (relative to results.html)
+ACCAML.keywords = ["acca","python","ai","machine","financial","finance","machine learning"]; //some keywords that will also bring up the course
+pages.push(ACCAML);
