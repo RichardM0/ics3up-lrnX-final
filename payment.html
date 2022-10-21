@@ -187,7 +187,19 @@
                 </div>
                 <div class="col">
                     <form id="payment-info-wrapper">
-                        <a href="index.html"><button id="submit-payment-button" type="button">Submit</button></a>
+                        <script>
+                            var x = document.getElementById("purchaseAudio")
+                            function playAudio(){
+                                x.play();
+                                sound.addEventListener('ended', function () {
+                                location.href = 'index.html';
+                                });
+                            }
+                        </script>
+                        <audio id="purchaseAudio">
+                            <source src="ics3up-cowbell.mp3">
+                        </audio>
+                        <button onclick="playAudio()" id="submit-payment-button" type="button">Submit</button>
                     </form>
                 </div>
             </div>
@@ -213,6 +225,5 @@
             </div>
         </div>
     </body>
-
 
 </html>
