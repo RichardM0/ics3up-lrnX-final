@@ -170,6 +170,7 @@ a:link, a:visited {
 #credit-card-label{
     font-size:42px;
     font-weight:bold;
+    width:60%;
 
 }
 #credit-card-input{
@@ -184,7 +185,7 @@ a:link, a:visited {
 #fname-label{
     font-size:42px;
     font-weight:bold;
-    width:43%;
+    width:60%;
 
 
 }
@@ -293,7 +294,7 @@ a:link, a:visited {
 #street-label{
     margin-right:20px;
     height:80px;
-    width:40%;
+    width:100%;
     font-size:42px;
     margin-top:30px;
     font-weight:bold;
@@ -314,13 +315,12 @@ a:link, a:visited {
     border:1px black solid;
 }
 #zipcode-input{
-    margin-top:25px;
     height:80px;
     width:725px;
     border-radius:25px;
     margin-left:20px;
     border:1px black solid;
-    margin-bottom:25px;
+    
 }
 #submit-payment-button{
     height:100px;

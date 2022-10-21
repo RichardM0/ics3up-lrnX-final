@@ -6,3 +6,19 @@ ACCAML.desc =  "A machine learning course focused on delivering practical Python
 ACCAML.link = "../ics3up-lrnX-final/courseslist/ACCAML.html"; //what should it be linked to? (relative to results.html)
 ACCAML.keywords = ["acca","python","ai","machine","financial","finance","machine learning"]; //some keywords that will also bring up the course
 pages.push(ACCAML);
+
+<form id="payment-info-wrapper">
+    <script>
+        var x = document.getElementById("purchaseAudio")
+        function playAudio(){
+            x.play();
+            sound.addEventListener('ended', function () {
+            location.href = 'index.html';
+            });
+        }
+    </script>
+    <audio id="purchaseAudio">
+        <source src="ics3up-cowbell.mp3">
+    </audio>
+    <button onclick="playAudio()" id="submit-payment-button" type="button">Submit</button>
+</form>
