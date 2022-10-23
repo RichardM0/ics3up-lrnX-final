@@ -277,7 +277,13 @@ ACCAML.link = "../ics3up-lrnX-final/courseslist/ACCAML.html"; //what should it b
 ACCAML.keywords = ["acca","python","ai","machine","financial","finance","machine learning"]; //some keywords that will also bring up the course
 pages.push(ACCAML);
 
+const HARVP = {};
+HARVP.name = "HARVP"; //what will the search query be?
+HARVP.image = "ics3up-harvp.jpg"; //link to image for the course (relative to results.html)
+HARVP.display = "Harvard: Using Python for Research"; //what will the bolded heading say?
+HARVP.desc =  "Take your introductory knowledge of Python programming to the next level and learn how to use Python 3 for your research."; //what will the description say?
+HARVP.link = "../ics3up-lrnX-final/courseslist/HARVP.html"; //what should it be linked to? (relative to results.html)
+HARVP.keywords = ["harvard","python","research","intermediate","student","education"]; //some keywords that will also bring up the course
+pages.push(HARVP);
 
-
-
-// TO ADD HARVP
+// TO ADD W3Cjs GAIjs EPFLNJS

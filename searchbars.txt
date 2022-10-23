@@ -1,24 +1,8 @@
-const ACCAML = {};
-ACCAML.name = "ACCAML"; //what will the search query be?
-ACCAML.image = "ics3up-ACCAML.webp"; //link to image for the course (relative to results.html)
-ACCAML.display = "ACCA: Machine Learning with Python for Financial Professionals"; //what will the bolded heading say?
-ACCAML.desc =  "A machine learning course focused on delivering practical Python skills for finance professionals looking to maximise their use of these time-saving tools within their organisation."; //what will the description say?
-ACCAML.link = "../ics3up-lrnX-final/courseslist/ACCAML.html"; //what should it be linked to? (relative to results.html)
-ACCAML.keywords = ["acca","python","ai","machine","financial","finance","machine learning"]; //some keywords that will also bring up the course
-pages.push(ACCAML);
-
-<form id="payment-info-wrapper">
-    <script>
-        var x = document.getElementById("purchaseAudio")
-        function playAudio(){
-            x.play();
-            sound.addEventListener('ended', function () {
-            location.href = 'index.html';
-            });
-        }
-    </script>
-    <audio id="purchaseAudio">
-        <source src="ics3up-cowbell.mp3">
-    </audio>
-    <button onclick="playAudio()" id="submit-payment-button" type="button">Submit</button>
-</form>
+const HARVP = {};
+HARVP.name = "HARVP"; //what will the search query be?
+HARVP.image = "ics3up-harvp.jpg"; //link to image for the course (relative to results.html)
+HARVP.display = "Harvard: Using Python for Research"; //what will the bolded heading say?
+HARVP.desc =  "Take your introductory knowledge of Python programming to the next level and learn how to use Python 3 for your research."; //what will the description say?
+HARVP.link = "../ics3up-lrnX-final/courseslist/HARVP.html"; //what should it be linked to? (relative to results.html)
+HARVP.keywords = ["harvard","python","research","intermediate","student","education"]; //some keywords that will also bring up the course
+pages.push(HARVP);
