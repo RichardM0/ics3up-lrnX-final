@@ -286,4 +286,4 @@ HARVP.link = "../ics3up-lrnX-final/courseslist/HARVP.html"; //what should it be 
 HARVP.keywords = ["harvard","python","research","intermediate","student","education"]; //some keywords that will also bring up the course
 pages.push(HARVP);
 
-// TO ADD W3Cjs GAIjs EPFLNJS
+// TO ADD W3Cjs GAIjs EPFLNJS LNjs NYUIC++
