@@ -1,8 +1,8 @@
-const HARVP = {};
-HARVP.name = "HARVP"; //what will the search query be?
-HARVP.image = "ics3up-harvp.jpg"; //link to image for the course (relative to results.html)
-HARVP.display = "Harvard: Using Python for Research"; //what will the bolded heading say?
-HARVP.desc =  "Take your introductory knowledge of Python programming to the next level and learn how to use Python 3 for your research."; //what will the description say?
-HARVP.link = "../ics3up-lrnX-final/courseslist/HARVP.html"; //what should it be linked to? (relative to results.html)
-HARVP.keywords = ["harvard","python","research","intermediate","student","education"]; //some keywords that will also bring up the course
-pages.push(HARVP);
+const W3Cjs = {};
+W3Cjs.name = "W3Cjs"; //what will the search query be?
+W3Cjs.image = "ics3up-W3Cjs.webp"; //link to image for the course (relative to results.html)
+W3Cjs.display = "W3C: Javascript Introduction"; //what will the bolded heading say?
+W3Cjs.desc =  "Learn JavaScript, a Web development programming language, to add interactivity to your Web pages, and become an expert Web developer."; //what will the description say?
+W3Cjs.link = "../ics3up-lrnX-final/courseslist/W3Cjs.html"; //what should it be linked to? (relative to results.html)
+W3Cjs.keywords = ["js","javascript","beginner","intro","introduction","student","w3c"]; //some keywords that will also bring up the course
+pages.push(W3Cjs);

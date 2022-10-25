@@ -189,19 +189,23 @@
             <div style="margin:0px;" class="row">
                 <div class="col">
                     <form id="payment-info-wrapper">
-                        <script>
-                            var x = document.getElementById("purchaseAudio")
-                            function playAudio(){
-                                x.play();
-                                sound.addEventListener('ended', function() {
-                                location.href = 'index.html';
-                                });
-                            }
-                        </script>
-                        <audio>
-                            <source id="purchaseAudio" src="ics3up-cowbell.mp3">
+                        <audio id="myAudio">
+                            <source src="ics3up-cowbell.mp3" type="audio/mpeg">
+                            Your browser does not support the audio element.
                         </audio>
-                        <a href="index.html"><button onclick="playAudio()" id="submit-payment-button" type="button">Submit</button></a>
+                        
+                        <button onclick="playAudio()" id="submit-payment-button" type="button">Purchase</button>
+                        
+                        <script>
+                        const x = document.getElementById("myAudio"); 
+                        function playAudio() { 
+                            x.play(); 
+                            let maxdiv = document.createElement("div")
+                            x.addEventListener('ended', function() {
+                                window.location.href = 'index.html';
+                            });
+                        } 
+                        </script>
                     </form>
                 </div>
             </div>
