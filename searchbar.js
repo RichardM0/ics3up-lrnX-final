@@ -130,7 +130,7 @@ CS50W.image = "ics3up-CS50W.webp"; //link to image for the course (relative to r
 CS50W.display = "CS50W's Web Development with Python and JavaScript"; //what will the bolded heading say?
 CS50W.desc =  "Learn Web Development using Python, Javascript, Django, SQL and more!"; //what will the description say?
 CS50W.link = "courseslist/CS50W.html"; //what should it be linked to? (relative to results.html)
-CS50W.keywords = ["javascript","python","harvard","cs50", "web development", "web programming"]; //some keywords that will also bring up the course
+CS50W.keywords = ["javascript","js","python","harvard","cs50", "web development", "web programming"]; //some keywords that will also bring up the course
 pages.push(CS50W);
 
 const CS50P = {};
@@ -148,7 +148,7 @@ CS50x.image = "ics3up-CS50X.png"; //link to image for the course (relative to re
 CS50x.display = "CS50x's Introduction to Computer Science"; //what will the bolded heading say?
 CS50x.desc =  "Use C++ to learn how to program, along with Computer Science fundamentals such as binary, how a computer works, experiments, and more."; //what will the description say?
 CS50x.link = "courseslist/CS50x.html"; //what should it be linked to? (relative to results.html)
-CS50x.keywords = ["C++","harvard","cs50","introduction","beginning",]; //some keywords that will also bring up the course
+CS50x.keywords = ["C++","harvard","cs50","introduction","beginner",]; //some keywords that will also bring up the course
 pages.push(CS50x);
 
 const CS50M = {};
@@ -157,7 +157,7 @@ CS50M.image = "ics3up-CS50M.webp"; //link to image for the course (relative to r
 CS50M.display = "CS50M: Mobile App Development with React Native"; //what will the bolded heading say?
 CS50M.desc =  " Learn about mobile app development with React Native, a popular framework maintained by Facebook that enables cross-platform native apps using JavaScript without Java or Swift."; //what will the description say?
 CS50M.link = "courseslist/CS50M.html"; //what should it be linked to? (relative to results.html)
-CS50M.keywords = ["react native","react","harvard","cs50","web programming","javascript", "web development",]; //some keywords that will also bring up the course
+CS50M.keywords = ["react native","js","react","harvard","cs50","web programming","javascript", "web development",]; //some keywords that will also bring up the course
 pages.push(CS50M);
 
 const CS50AI = {};
@@ -166,7 +166,7 @@ CS50AI.image = "ics3up-CS50AI.webp"; //link to image for the course (relative to
 CS50AI.display = "CS50AI: Introduction to Artificial Intelligence with Python"; //what will the bolded heading say?
 CS50AI.desc =  "Learn to use machine learning in Python in this introductory course on artificial intelligence."; //what will the description say?
 CS50AI.link = "courseslist/CS50AI.html"; //what should it be linked to? (relative to results.html)
-CS50AI.keywords = ["ai","artificial intelligence","harvard","cs50","python","introduction", "beginner",]; //some keywords that will also bring up the course
+CS50AI.keywords = ["ai","artificial intelligence","harvard","cs50","python","introduction"]; //some keywords that will also bring up the course
 pages.push(CS50AI);
 
 const IBMDSC = {};
@@ -193,7 +193,7 @@ IBMWJS.image = "ics3up-IBMJS.webp"; //link to image for the course (relative to 
 IBMWJS.display = "IBM: Web Developing in the Cloud with JavaScript"; //what will the bolded heading say?
 IBMWJS.desc =  "Using JavaScript and more to learn web development, and web development with the cloud."; //what will the description say?
 IBMWJS.link = "courseslist/IBMWJS.html"; //what should it be linked to? (relative to results.html)
-IBMWJS.keywords = ["cloud","ibm","javascript","web development","front-end", "develop",]; //some keywords that will also bring up the course
+IBMWJS.keywords = ["cloud","ibm","js","javascript","web development","front-end", "develop",]; //some keywords that will also bring up the course
 pages.push(IBMWJS);
 
 const IBMPDS = {};
@@ -220,7 +220,7 @@ UoPjs.image = "ics3up-UoPjs.webp"; //link to image for the course (relative to r
 UoPjs.display = "UoP: Programming for the Web with JavaScript"; //what will the bolded heading say?
 UoPjs.desc =  "Learn how to develop dynamic, interactive, and data-driven web apps using JavaScript."; //what will the description say?
 UoPjs.link = "courseslist/UoPjs.html"; //what should it be linked to? (relative to results.html)
-UoPjs.keywords = ["javascript","uop","javascript","web development","front-end", "develop","university of pensylvannia"]; //some keywords that will also bring up the course
+UoPjs.keywords = ["javascript","js","uop","web development","front-end", "develop","university of pensylvannia"]; //some keywords that will also bring up the course
 pages.push(UoPjs);
 
 const klwebsec = {};
@@ -229,7 +229,7 @@ klwebsec.image = "ics3up-klwebsec.jpg"; //link to image for the course (relative
 klwebsec.display = "Ku Leuven's Web Security Fundamentals"; //what will the bolded heading say?
 klwebsec.desc =  "Essential knowledge for every web developer, discover important principles of modern web security, and learn about current security best practices."; //what will the description say?
 klwebsec.link = "courseslist/klwebsec.html"; //what should it be linked to? (relative to results.html)
-klwebsec.keywords = ["web security","ku leuven","javascript","web development","front-end", "develop","web"]; //some keywords that will also bring up the course
+klwebsec.keywords = ["web security","ku leuven","javascript","js","web development","front-end", "develop","web"]; //some keywords that will also bring up the course
 pages.push(klwebsec);
 
 const W3CHC = {};
@@ -238,7 +238,7 @@ W3CHC.image = "ics3up-W3CHC.webp"; //link to image for the course (relative to r
 W3CHC.display = "W3C: HTML5 and CSS Fundamentals"; //what will the bolded heading say?
 W3CHC.desc =  "Learn how to build Web sites using HTML5 and basic CSS, directly from W3C, creator of the latest Web standards."; //what will the description say?
 W3CHC.link = "courseslist/W3CHC.html"; //what should it be linked to? (relative to results.html)
-W3CHC.keywords = ["css","html","javascript","web development","front-end", "develop","web","w3c"]; //some keywords that will also bring up the course
+W3CHC.keywords = ["css","html","javascript","web development","front-end","js", "develop","web","w3c"]; //some keywords that will also bring up the course
 pages.push(W3CHC);
 
 const W3CH = {};
@@ -247,7 +247,7 @@ W3CH.image = "ics3up-W3CH.webp"; //link to image for the course (relative to res
 W3CH.display = "W3C: HTML5 Coding Essentials and Best Practices"; //what will the bolded heading say?
 W3CH.desc =  "Learn how to write Web pages and Web sites by mastering HTML5 coding techniques and best practices."; //what will the description say?
 W3CH.link = "courseslist/W3CH.html"; //what should it be linked to? (relative to results.html)
-W3CH.keywords = ["css","fundamentals","basic","beginner","introduction","html","javascript","web development","front-end", "develop","web","w3c"]; //some keywords that will also bring up the course
+W3CH.keywords = ["css","js","fundamentals","basic","beginner","introduction","html","javascript","web development","front-end", "develop","web","w3c"]; //some keywords that will also bring up the course
 pages.push(W3CH);
 
 const CS50G = {};
@@ -294,4 +294,59 @@ W3Cjs.desc =  "Learn JavaScript, a Web development programming language, to add 
 W3Cjs.link = "courseslist/W3Cjs.html"; //what should it be linked to? (relative to results.html)
 W3Cjs.keywords = ["js","javascript","beginner","intro","introduction","student","w3c"]; //some keywords that will also bring up the course
 pages.push(W3Cjs);
-// TO ADD  GAIjs EPFLNJS LNjs NYUIC++ IBMOOPC++
+
+const GAIjs = {};
+GAIjs.name = "GAIjs"; //what will the search query be?
+GAIjs.image = "ics3up-GAIjs.webp"; //link to image for the course (relative to results.html)
+GAIjs.display = "Google: AI for JavaScript developers using Tenserflow"; //what will the bolded heading say?
+GAIjs.desc =  "Get productive with TensorFlow.js - Google's Machine Learning library for JavaScript. From pre-made off the shelf models to writing or training your own, learn how to create next gen web apps."; //what will the description say?
+GAIjs.link = "../ics3up-lrnX-final/courseslist/GAIjs.html"; //what should it be linked to? (relative to results.html)
+GAIjs.keywords = ["js","javascript","tenserflow","google","advanced","artificial intelligence","ai"]; //some keywords that will also bring up the course
+pages.push(GAIjs);
+
+const EPFLNJS = {};
+EPFLNJS.name = "EPFLNJS"; //what will the search query be?
+EPFLNJS.image = "ics3up-EPFLNJS.webp"; //link to image for the course (relative to results.html)
+EPFLNJS.display = "EPFL: Nature in Code, Biology in JavaScript"; //what will the bolded heading say?
+EPFLNJS.desc =  "Learn JavaScript programming by implementing key biology concepts in code, including natural selection, genetics and epidemics."; //what will the description say?
+EPFLNJS.link = "../ics3up-lrnX-final/courseslist/EPFLNJS.html"; //what should it be linked to? (relative to results.html)
+EPFLNJS.keywords = ["js","javascript","epfl","biology","advanced","nature","greenery"]; //some keywords that will also bring up the course
+pages.push(EPFLNJS);
+
+const LNjs = {};
+LNjs.name = "LNjs"; //what will the search query be?
+LNjs.image = "ics3up-LNjs.webp"; //link to image for the course (relative to results.html)
+LNjs.display = "Linux: Introduction to Node.js"; //what will the bolded heading say?
+LNjs.desc =  "Get started with Node.js, the most popular open source JavaScript runtime. Discover the ways in which Node.js helps in everyday computing scenarios, from service-mocking, rapid-prototyping and real-time applications, to Command Line Interfaces (CLI)."; //what will the description say?
+LNjs.link = "../ics3up-lrnX-final/courseslist/LNjs.html"; //what should it be linked to? (relative to results.html)
+LNjs.keywords = ["js","javascript","introduction","beginner","node","node.js","linux"]; //some keywords that will also bring up the course
+pages.push(LNjs);
+
+const NYUIC = {};
+NYUIC.name = "NYUIC++"; //what will the search query be?
+NYUIC.image = "ics3up-NYUIC++.webp"; //link to image for the course (relative to results.html)
+NYUIC.display = "NYU: Introduction to Programming with C++"; //what will the bolded heading say?
+NYUIC.desc =  "Learn the fundamentals of programming in the C++ programming language, including iteration, decision branching, data types and expression."; //what will the description say?
+NYUIC.link = "../ics3up-lrnX-final/courseslist/NYUIC++.html"; //what should it be linked to? (relative to results.html)
+NYUIC.keywords = ["c++","nyu","beginner","introduction","new york university"]; //some keywords that will also bring up the course
+pages.push(NYUIC);
+
+const IBMOOP = {};
+IBMOOP.name = "IBMOOPC++"; //what will the search query be?
+IBMOOP.image = "ics3up-IBMOOPC++.webp"; //link to image for the course (relative to results.html)
+IBMOOP.display = "IBM: Object Orientated Programming with C++"; //what will the bolded heading say?
+IBMOOP.desc =  "Build a thorough understanding of Object Oriented concepts Using C++ with auto evaluated hands-on labs."; //what will the description say?
+IBMOOP.link = "../ics3up-lrnX-final/courseslist/IBMOOPC++.html"; //what should it be linked to? (relative to results.html)
+IBMOOP.keywords = ["c++","object orientated programming","beginner","introduction","classes","ibm"]; //some keywords that will also bring up the course
+pages.push(IBMOOP);
+
+const MI = {};
+MI.name = "MIC++"; //what will the search query be?
+MI.image = "ics3up-MIC++.webp"; //link to image for the course (relative to results.html)
+MI.display = "Microsoft: Introduction to C++"; //what will the bolded heading say?
+MI.desc =  "Get a brief introduction to the C++ language from the experts at Microsoft."; //what will the description say?
+MI.link = "../ics3up-lrnX-final/courseslist/MIC++.html"; //what should it be linked to? (relative to results.html)
+MI.keywords = ["c++","microsoft","beginner","introduction","classes",]; //some keywords that will also bring up the course
+pages.push(MI);
+
+

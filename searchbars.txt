@@ -1,8 +1,8 @@
-const W3Cjs = {};
-W3Cjs.name = "W3Cjs"; //what will the search query be?
-W3Cjs.image = "ics3up-W3Cjs.webp"; //link to image for the course (relative to results.html)
-W3Cjs.display = "W3C: Javascript Introduction"; //what will the bolded heading say?
-W3Cjs.desc =  "Learn JavaScript, a Web development programming language, to add interactivity to your Web pages, and become an expert Web developer."; //what will the description say?
-W3Cjs.link = "../ics3up-lrnX-final/courseslist/W3Cjs.html"; //what should it be linked to? (relative to results.html)
-W3Cjs.keywords = ["js","javascript","beginner","intro","introduction","student","w3c"]; //some keywords that will also bring up the course
-pages.push(W3Cjs);
+const MI = {};
+MI.name = "MIC++"; //what will the search query be?
+MI.image = "ics3up-MIC++.webp"; //link to image for the course (relative to results.html)
+MI.display = "Microsoft: Introduction to C++"; //what will the bolded heading say?
+MI.desc =  "Get a brief introduction to the C++ language from the experts at Microsoft."; //what will the description say?
+MI.link = "../ics3up-lrnX-final/courseslist/MIC++.html"; //what should it be linked to? (relative to results.html)
+MI.keywords = ["c++","c","microsoft","beginner","introduction","classes",]; //some keywords that will also bring up the course
+pages.push(MI);
