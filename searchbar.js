@@ -78,6 +78,7 @@ function search(){
 
         const imagediv = document.createElement("div");
         const image = document.createElement("img");
+        image.setAttribute("alt",match.name + " image")
         image.setAttribute("src",match.image);
         imagediv.appendChild(image);
         image.classList.add("showcaseimage");
